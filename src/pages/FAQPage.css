@@ -1,0 +1,74 @@
+.faq-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  background: var(--cream-bg);
+}
+
+.faq-scroll {
+  flex: 1;
+  overflow-y: auto;
+  background: var(--cream-bg);
+}
+
+.faq-inner {
+  padding: 0 80px;
+}
+
+.faq-divider-row {
+  display: flex;
+  align-items: center;
+  padding: 55px 75px;
+}
+
+.faq-divider-row .rule {
+  flex: 1;
+  height: 2px;
+  background: var(--navy);
+}
+
+.faq-divider-row .label {
+  font-family: 'CormorantGaramond', serif;
+  font-size: 45px;
+  color: var(--navy);
+  white-space: nowrap;
+  padding: 0 15px;
+}
+
+.faq-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(21, 44, 91, 0.15);
+  color: var(--navy);
+}
+
+.faq-question-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 23px;
+  color: var(--navy);
+  font-family: inherit;
+  text-align: left;
+  padding: 0;
+}
+
+.faq-toggle-icon {
+  font-size: 30px;
+  flex-shrink: 0;
+  margin-left: 12px;
+  line-height: 1;
+}
+
+.faq-answer {
+  font-size: 18px;
+  line-height: 1.6;
+  white-space: pre-line;
+  margin: 0;
+}

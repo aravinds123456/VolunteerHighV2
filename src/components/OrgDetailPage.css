@@ -1,0 +1,145 @@
+.org-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  background: var(--black);
+  color: var(--white);
+}
+
+.org-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  padding: 16px 24px 16px 24px;
+}
+
+.org-header.center-title .org-title {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.org-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.org-note {
+  font-size: 15px;
+  text-align: center;
+  white-space: pre-line;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  color: var(--white);
+}
+
+.org-note a {
+  color: var(--accent-blue);
+  text-decoration: underline;
+}
+
+.org-body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  align-items: stretch;
+}
+
+.org-divider {
+  width: 1px;
+  background: rgba(255,255,255,0.2);
+  flex-shrink: 0;
+}
+
+.org-list-pane {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.org-list-heading {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 22px;
+  font-weight: 400;
+  background: linear-gradient(135deg, #6ab0f8, #2f6fd1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+.org-list-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.org-list-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  white-space: pre-line;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.org-list-item:hover {
+  background: rgba(255,255,255,0.06);
+}
+
+.org-list-item.selected {
+  background: rgba(74, 144, 226, 0.2);
+}
+
+.org-detail-pane {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.org-detail-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.org-detail-name {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  padding: 16px;
+}
+
+.org-detail-description {
+  font-size: 16px;
+  font-family: 'NotoSans', sans-serif;
+  white-space: pre-line;
+  text-align: left;
+  margin: 0;
+  padding: 16px;
+}
+
+.org-detail-placeholder {
+  color: #9a9a9a;
+  padding: 16px;
+}

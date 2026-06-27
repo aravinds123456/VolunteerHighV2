@@ -1,0 +1,44 @@
+name: Update Volunteer Opportunities
+
+# Runs the HandsOn Phoenix + City of Flagstaff scrapers once a day and
+# commits the refreshed data straight into the React app's src/data folder,
+# so the live site picks up new opportunities automatically on its next deploy.
+
+on:
+  schedule:
+    # Runs at 1:30 UTC daily = 6:30 PM Arizona time (Arizona is UTC-7 year-round,
+    # since it doesn't observe Daylight Saving Time). Cron schedules in
+    # GitHub Actions are always specified in UTC.
+    - cron: "30 1 * * *"
+  workflow_dispatch: {}   # lets you also trigger it manually from the Actions tab
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        working-directory: scraper/scripts
+        run: python3 update_opportunities.py
+
+      - name: Copy output into React app's data folder
+        run: cp scraper/scripts/scraped_opportunities.json volunteerhigh/src/data/scrapedOpportunities.json
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "volunteerhigh-bot"
+          git config user.email "actions@github.com"
+          git add volunteerhigh/src/data/scrapedOpportunities.json
+          git diff --staged --quiet || git commit -m "Auto-update volunteer opportunities $(date -u +%Y-%m-%d)"
+          git push

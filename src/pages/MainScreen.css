@@ -1,0 +1,312 @@
+.main-screen {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.main-scroll {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* ---------- HERO ---------- */
+/* SwiftUI used Image("Image").frame(width: 1474, height: 1149) — roughly a
+   1.28:1 width:height ratio. We recreate that with aspect-ratio so it scales
+   responsively but keeps the same proportions/size feel as the original. */
+.hero-section {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1474 / 1149;
+  min-height: 780px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 33%;
+  padding-left: 30px;
+  max-width: 600px;
+}
+
+.hero-line1, .hero-line2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--white);
+  margin: 0;
+  line-height: 1.1;
+}
+
+.hero-line2 {
+  margin-top: -10px;
+}
+
+.hero-line2.blue {
+  color: var(--accent-blue);
+}
+
+.hero-sub {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: var(--white);
+  white-space: pre-line;
+  margin: 0;
+}
+
+/* ---------- PROJECT / STATS ---------- */
+.project-section {
+  background: var(--navy-deep);
+  padding: 60px 0 165px 0;
+}
+
+.project-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 51px;
+  font-weight: 400;
+  color: var(--white);
+  margin: 0;
+  padding-left: 205px;
+}
+
+.project-sub {
+  font-size: 18.6px;
+  color: var(--white);
+  margin: 10px 0 10px 0;
+  padding-left: 207px;
+}
+
+.project-sub.second {
+  margin-bottom: 55px;
+  margin-top: 0;
+}
+
+.stats-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 205px;
+}
+
+.stat-block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+
+.stat-rule {
+  color: #ffd700;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.stat-number {
+  font-family: 'SF Mono', 'Courier New', monospace;
+  font-size: 75px;
+  font-weight: 600;
+  color: var(--white);
+  margin: 0;
+}
+
+.stat-caption {
+  font-size: 14.1px;
+  color: var(--white);
+  white-space: pre-line;
+  margin: 0;
+}
+
+/* ---------- PARTNERS HEADER ---------- */
+.partners-divider-row {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 40px 75px;
+  background: var(--pale-yellow-bg);
+}
+
+.partners-divider-row .rule {
+  flex: 1;
+  height: 2px;
+  background: var(--navy);
+}
+
+.partners-divider-row .label {
+  font-family: 'CormorantGaramond', serif;
+  font-size: 40px;
+  color: var(--navy);
+  white-space: nowrap;
+  padding: 0 15px;
+}
+
+/* ---------- PARTNER GRID ---------- */
+.partners-grid-wrap {
+  background: var(--pale-yellow-bg);
+  padding-bottom: 100px;
+}
+
+.partners-row {
+  display: flex;
+  gap: 10px;
+  padding: 0 16px;
+  margin-bottom: 10px;
+}
+
+.partner-box {
+  flex: 1;
+  min-width: 0;
+  height: 300px;
+  background: linear-gradient(135deg, #b6b6b6, #8a8a8a);
+  border: 2px solid #8a8a8a;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  opacity: 0;
+  transform: translateY(35px) scale(0.92) rotateY(-75deg);
+  transition: opacity 0.55s cubic-bezier(0.25, 1.4, 0.45, 1),
+              transform 0.55s cubic-bezier(0.25, 1.4, 0.45, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.partner-box.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1) rotateY(0);
+}
+
+/* On repeat visits within the same session, the boxes render fully visible
+   instantly with no transition at all, instead of replaying the fly-in. */
+.partner-box.no-anim {
+  transition: none;
+}
+
+.partner-box img {
+  max-width: 200px;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.partner-box img.circular {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.partner-box .org-name {
+  color: var(--black);
+  font-size: 15px;
+  text-align: center;
+}
+
+/* ---------- SCROLL TRANSITION (Quest / Maps text flow-in) ----------
+   Mirrors SwiftUI's .scrollTransition { opacity(isIdentity?1:0).offset(y:isIdentity?0:50) }
+   Re-triggers every time the section crosses the viewport threshold, since
+   IntersectionObserver toggles `identity` on and off as the user scrolls. */
+.scroll-transition {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.scroll-transition.identity {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- QUEST SECTION ---------- */
+.quest-section {
+  background: var(--cream-bg);
+  padding: 100px 205px 200px 205px;
+}
+
+.quest-heading {
+  font-family: 'CormorantGaramond', serif;
+  font-size: 40px;
+  color: var(--navy);
+  margin: 0 0 13.5px 0;
+}
+
+.quest-body-text {
+  font-size: 18.6px;
+  color: var(--navy-mid);
+  line-height: 1.5;
+  white-space: pre-line;
+  margin: 0 0 13.5px 0;
+}
+
+.quest-cta {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--navy);
+  background: transparent;
+  border: 1.5px solid var(--navy);
+  border-radius: 8px;
+  padding: 45px 175px;
+  transition: background 1s ease;
+  cursor: pointer;
+}
+
+.quest-cta:hover {
+  background: var(--pale-blue-bg);
+}
+
+/* ---------- MAPS SECTION ---------- */
+.maps-section {
+  background: var(--navy-deep);
+  padding: 100px 205px 200px 205px;
+}
+
+.maps-heading {
+  font-family: 'CormorantGaramond', serif;
+  font-size: 40px;
+  color: #ffd966;
+  margin: 0 0 13.5px 0;
+}
+
+.maps-body-text {
+  font-size: 18.6px;
+  color: #f1e9d2;
+  line-height: 1.5;
+  white-space: pre-line;
+  margin: 0 0 13.5px 0;
+}
+
+.maps-cta {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffd966;
+  background: transparent;
+  border: 1.5px solid #ffd966;
+  border-radius: 8px;
+  padding: 45px 175px;
+  transition: background 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.maps-cta:hover {
+  background: rgba(255, 217, 102, 0.12);
+}
+
+@media (max-width: 1100px) {
+  .hero-text, .project-title, .project-sub, .stats-row,
+  .quest-section, .maps-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .partners-row {
+    flex-wrap: wrap;
+  }
+  .partner-box {
+    flex: 1 1 45%;
+  }
+}

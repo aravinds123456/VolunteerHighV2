@@ -1,0 +1,50 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  height: 72px;
+  width: 100%;
+  background: var(--black);
+  padding-right: 160px;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--white);
+  flex-shrink: 0;
+}
+
+.navbar-logo-link {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 518px;
+  margin-left: -160px;
+  overflow: visible;
+}
+
+.navbar-logo {
+  width: 518px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.navbar-spacer {
+  flex: 1;
+}
+
+.navbar-link,
+.navbar-current {
+  white-space: nowrap;
+  color: var(--white);
+}
+
+.navbar-link {
+  transition: opacity 0.15s ease;
+}
+
+.navbar-link:hover {
+  opacity: 0.7;
+}

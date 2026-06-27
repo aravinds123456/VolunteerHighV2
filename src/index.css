@@ -1,0 +1,90 @@
+/* ===========================================================
+   GLOBAL STYLES — VolunteerHigh
+   Mirrors SwiftUI defaults: system font, dark color scheme,
+   black nav bar, system spacing conventions.
+=========================================================== */
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url('./assets/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./assets/fonts/NotoSans-VariableFont_wdth_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./assets/fonts/NotoSans-Italic-VariableFont_wdth_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* PlayfairDisplay-Regular.ttf was referenced in the SwiftUI source but was not
+   among the uploaded files. Loading it from Google Fonts so headings render
+   correctly. To use your own local file instead: drop a PlayfairDisplay-Regular.ttf
+   into src/assets/fonts/, then swap this @import for a @font-face block like above. */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  --gradient-top: #4a90e2;
+  --gradient-bottom: #1e3a5f;
+  --tint: #4a90e2;
+  --navy-deep: #041c45;      /* rgb(4,28,69) */
+  --navy: #152c5b;           /* rgb(21,44,91) */
+  --navy-mid: #284772;       /* rgb(40,71,114) */
+  --cream-bg: #fdfbf5;       /* rgb(253,251,245) */
+  --pale-yellow-bg: #fff9e4; /* rgb(255,249,228) */
+  --accent-blue: #4a90e2;    /* rgb(74,144,226) */
+  --pale-blue-bg: #dbe7f3;   /* rgb(219,231,243) */
+  --black: #000000;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: var(--black);
+  color: var(--white);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'NotoSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Custom scrollbar to feel closer to macOS */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
