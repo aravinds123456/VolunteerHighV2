@@ -33,12 +33,12 @@ jobs:
         run: python3 update_opportunities.py
 
       - name: Copy output into React app's data folder
-        run: cp scraper/scripts/scraped_opportunities.json volunteerhigh/src/data/scrapedOpportunities.json
+        run: cp scraper/scripts/scraped_opportunities.json src/data/scrapedOpportunities.json
 
       - name: Commit and push if data changed
         run: |
           git config user.name "volunteerhigh-bot"
           git config user.email "actions@github.com"
-          git add volunteerhigh/src/data/scrapedOpportunities.json
+          git add src/data/scrapedOpportunities.json
           git diff --staged --quiet || git commit -m "Auto-update volunteer opportunities $(date -u +%Y-%m-%d)"
           git push
