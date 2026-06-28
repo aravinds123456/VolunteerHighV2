@@ -8,10 +8,11 @@
 // hardcoded arrays below so the site never shows an empty list.
 
 import scrapedData from './scrapedOpportunities.json';
+import { cleanScrapedOpportunities } from '../utils/opportunityFilters';
 
 const hardcodedHandsOnGreaterPhoenix = {
   title: "HandsOn Greater Phoenix",
-  note: null,
+  note: "For referral volunteer opportunities (marked \"Referral\" in the title), please contact the listed volunteer coordinator directly to confirm whether service hours can be verified, since HandsOn cannot sign off on hours for projects run by partner organizations.",
   opportunities: [
     {
       name: "TopGolf Competition - Gilbert",
@@ -101,15 +102,33 @@ const hardcodedCityOfFlagstaff = {
 
 // Use scraped data when it actually has opportunities; otherwise fall back
 // to the hardcoded arrays above so the site is never left showing nothing.
-const liveHandsOnGreaterPhoenix =
+// Scraped data is run through cleanScrapedOpportunities: decodes HTML
+// entities (Chef&#39;s -> Chef's), keeps only opportunities with a clearly
+// stated minimum age of 12+, and drops anything with a date already past.
+const rawLiveHandsOnGreaterPhoenix =
   scrapedData.handsOnGreaterPhoenix?.opportunities?.length > 0
     ? scrapedData.handsOnGreaterPhoenix
     : hardcodedHandsOnGreaterPhoenix;
 
-const liveCityOfFlagstaff =
+const liveHandsOnGreaterPhoenix = {
+  ...rawLiveHandsOnGreaterPhoenix,
+  note: "For referral volunteer opportunities (marked \"Referral\" in the title), please contact HandsOn Greater Phoenix to confirm whether volunteer hours can be verified for that project before signing up.",
+  opportunities: rawLiveHandsOnGreaterPhoenix === hardcodedHandsOnGreaterPhoenix
+    ? rawLiveHandsOnGreaterPhoenix.opportunities
+    : cleanScrapedOpportunities(rawLiveHandsOnGreaterPhoenix.opportunities),
+};
+
+const rawLiveCityOfFlagstaff =
   scrapedData.cityOfFlagstaff?.opportunities?.length > 0
     ? scrapedData.cityOfFlagstaff
     : hardcodedCityOfFlagstaff;
+
+const liveCityOfFlagstaff = {
+  ...rawLiveCityOfFlagstaff,
+  opportunities: rawLiveCityOfFlagstaff === hardcodedCityOfFlagstaff
+    ? rawLiveCityOfFlagstaff.opportunities
+    : cleanScrapedOpportunities(rawLiveCityOfFlagstaff.opportunities),
+};
 
 export const organizations = {
   handsOnGreaterPhoenix: liveHandsOnGreaterPhoenix,

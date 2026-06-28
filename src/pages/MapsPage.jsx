@@ -18,6 +18,8 @@ const ORG_ROUTES = {
 
 let googleMapsLoaderPromise = null;
 
+// Dynamically injects the Google Maps JS script tag once, mirroring how
+// MapKit is simply "available" natively — this is the web equivalent setup step.
 function loadGoogleMaps(apiKey) {
   if (window.google?.maps) return Promise.resolve(window.google);
   if (googleMapsLoaderPromise) return googleMapsLoaderPromise;
@@ -34,6 +36,17 @@ function loadGoogleMaps(apiKey) {
   return googleMapsLoaderPromise;
 }
 
+/**
+ * Mirrors Maps.swift:
+ *   NavBar
+ *   Map(position: $camera, selection: $selected) { Markers for each coordinate }
+ *   Search panel: address TextField + "Find Nearest Opportunity" button
+ *   travelTime label
+ *   .sheet(item: $selected) -> "Click to View Organization" -> navigates to org page
+ *
+ * MapKit's MKLocalSearch / MKDirections are replaced with the Google Maps
+ * Places + Directions equivalents.
+ */
 export default function MapsPage() {
   const navigate = useNavigate();
   const mapDivRef = useRef(null);
@@ -161,6 +174,22 @@ export default function MapsPage() {
 
   function viewOrganization() {
     if (!selected) return;
+
+    // The representative HandsOn Phoenix / Flagstaff city markers (added once
+    // those orgs grew to 100+ live, daily-changing opportunities) aren't tied
+    // to one specific opportunity name, so they're matched by name prefix
+    // instead and routed straight to that org's page.
+    if (selected.name.startsWith('HandsOn Greater Phoenix opportunities')) {
+      navigate(ORG_ROUTES.handsOnGreaterPhoenix);
+      setSelected(null);
+      return;
+    }
+    if (selected.name.startsWith('City of Flagstaff opportunities')) {
+      navigate(ORG_ROUTES.cityOfFlagstaff);
+      setSelected(null);
+      return;
+    }
+
     const orgKey = findOrgByOpportunityName(selected.name);
     if (orgKey && ORG_ROUTES[orgKey]) {
       navigate(ORG_ROUTES[orgKey]);
@@ -216,6 +245,7 @@ export default function MapsPage() {
   );
 }
 
+// Fallback distance calc if google.maps.geometry library isn't loaded
 function haversineDistance(lat1, lng1, lat2, lng2) {
   const R = 6371000;
   const toRad = (d) => (d * Math.PI) / 180;
