@@ -1,8 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/NavBar';
-import { mapLocations } from '../data/mapLocations';
-import { findOrgByOpportunityName } from '../data/opportunities';
 import { GOOGLE_MAPS_API_KEY, isGoogleMapsConfigured } from '../config/googleMapsConfig';
 import './MapsPage.css';
 
@@ -14,39 +12,159 @@ const ORG_ROUTES = {
   cityOfFlagstaff: '/org/city-of-flagstaff',
   feedMyStarvingChildren: '/org/feed-my-starving-children',
   lostOurHomesPetRescue: '/org/lost-our-homes-pet-rescue',
+  juniorAchievement: '/org/junior-achievement',
 };
+
+// Cache key prefix for localStorage geocode cache
+const GEOCODE_CACHE_KEY = 'vh_geocode_cache_v5';
 
 let googleMapsLoaderPromise = null;
 
-// Dynamically injects the Google Maps JS script tag once, mirroring how
-// MapKit is simply "available" natively — this is the web equivalent setup step.
 function loadGoogleMaps(apiKey) {
   if (window.google?.maps) return Promise.resolve(window.google);
   if (googleMapsLoaderPromise) return googleMapsLoaderPromise;
-
   googleMapsLoaderPromise = new Promise((resolve, reject) => {
     const script = document.createElement('script');
     script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places,geometry`;
     script.async = true;
-    script.onload = () => resolve(window.google);
+    script.onload = () => {
+      // Load MarkerClusterer after Google Maps
+      const clustererScript = document.createElement('script');
+      clustererScript.src = 'https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js';
+      clustererScript.onload = () => resolve(window.google);
+      clustererScript.onerror = () => resolve(window.google); // fallback: still works without clustering
+      document.head.appendChild(clustererScript);
+    };
     script.onerror = reject;
     document.head.appendChild(script);
   });
-
   return googleMapsLoaderPromise;
 }
 
 /**
- * Mirrors Maps.swift:
- *   NavBar
- *   Map(position: $camera, selection: $selected) { Markers for each coordinate }
- *   Search panel: address TextField + "Find Nearest Opportunity" button
- *   travelTime label
- *   .sheet(item: $selected) -> "Click to View Organization" -> navigates to org page
- *
- * MapKit's MKLocalSearch / MKDirections are replaced with the Google Maps
- * Places + Directions equivalents.
+ * Extracts a geocodable location string from an opportunity's description.
+ * Handles: full addresses, city+state+zip, zip-only codes.
  */
+function extractLocation(description) {
+  if (!description) return null;
+  const match = description.match(/Location:\s*([^\n]+)/i);
+  if (!match) return null;
+  let loc = match[1].trim();
+
+  // Fix "PHOENIX, AZ, AZ, 85042" style duplicates from scraper
+  loc = loc.replace(/,?\s*AZ,\s*AZ/i, ', AZ');
+
+  // Skip vague strings
+  if (
+    loc.toLowerCase().includes('details') ||
+    loc.toLowerCase().includes('provided after') ||
+    loc.toLowerCase().includes('provided upon') ||
+    loc.toLowerCase().includes('contact') ||
+    loc.toLowerCase().includes('various') ||
+    loc.toLowerCase().includes('multiple') ||
+    loc.toLowerCase().includes('tbd') ||
+    loc.length < 4
+  ) return null;
+
+  // Zip-only (5 digits) — append Arizona so geocoder resolves correctly
+  if (/^\d{5}$/.test(loc)) return `${loc}, AZ`;
+
+  return loc;
+}
+
+/**
+ * Reads the geocode cache from localStorage.
+ */
+function readCache() {
+  try {
+    const raw = localStorage.getItem(GEOCODE_CACHE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+/**
+ * Writes the geocode cache to localStorage.
+ */
+function writeCache(cache) {
+  try {
+    localStorage.setItem(GEOCODE_CACHE_KEY, JSON.stringify(cache));
+  } catch {}
+}
+
+/**
+ * Geocodes a location string, using localStorage cache to avoid repeat calls.
+ * Returns { lat, lng } or null if geocoding fails.
+ */
+async function geocodeLocation(google, locationStr, cache) {
+  const key = locationStr.toLowerCase().trim();
+  if (cache[key]) return cache[key];
+
+  return new Promise((resolve) => {
+    const geocoder = new google.maps.Geocoder();
+    geocoder.geocode(
+      {
+        address: locationStr + ', Arizona',
+        componentRestrictions: { country: 'us' },
+        bounds: new google.maps.LatLngBounds(
+          new google.maps.LatLng(31.3, -114.8),
+          new google.maps.LatLng(37.0, -109.0)
+        ),
+      },
+      (results, status) => {
+        if (status === 'OK' && results[0]) {
+          const { lat, lng } = results[0].geometry.location;
+          const coords = { lat: lat(), lng: lng() };
+          cache[key] = coords;
+          resolve(coords);
+        } else {
+          cache[key] = null; // cache the failure too so we don't retry
+          resolve(null);
+        }
+      }
+    );
+  });
+}
+
+/**
+ * Builds the full list of map pins from live opportunities data.
+ * Each pin: { name, orgKey, lat, lng }
+ * Geocodes locations not already in cache, with a small delay between calls
+ * to avoid hitting rate limits.
+ */
+async function buildDynamicPins(google, orgs, onProgress) {
+  const cache = readCache();
+  const pins = [];
+  const toGeocode = [];
+
+  // Collect all opportunities with extractable locations — no dedup
+  for (const [orgKey, org] of Object.entries(orgs)) {
+    for (const opp of org.opportunities) {
+      const loc = extractLocation(opp.description);
+      if (!loc) continue;
+      toGeocode.push({ name: opp.name, orgKey, loc });
+    }
+  }
+
+  onProgress(`Locating ${toGeocode.length} opportunities...`);
+
+  // Geocode each unique location string (cache means repeated locs cost 0 extra calls)
+  let done = 0;
+  for (const item of toGeocode) {
+    const coords = await geocodeLocation(google, item.loc, cache);
+    if (coords) {
+          pins.push({ name: item.name, orgKey: item.orgKey, lat: coords.lat, lng: coords.lng });
+        }
+    done++;
+    if (done % 10 === 0) onProgress(`Locating opportunities... (${done}/${toGeocode.length})`);
+    await new Promise(r => setTimeout(r, 60));
+  }
+
+  writeCache(cache);
+  return pins;
+}
+
 export default function MapsPage() {
   const navigate = useNavigate();
   const mapDivRef = useRef(null);
@@ -59,12 +177,15 @@ export default function MapsPage() {
   const [mapsReady, setMapsReady] = useState(false);
   const [mapsError, setMapsError] = useState('');
   const [findError, setFindError] = useState('');
+  const [loadingStatus, setLoadingStatus] = useState('Loading map...');
+  const [pins, setPins] = useState([]);
 
   useEffect(() => {
     if (!isGoogleMapsConfigured()) return;
 
     let cancelled = false;
-    loadGoogleMaps(GOOGLE_MAPS_API_KEY).then((google) => {
+
+    loadGoogleMaps(GOOGLE_MAPS_API_KEY).then(async (google) => {
       if (cancelled || !mapDivRef.current) return;
 
       const map = new google.maps.Map(mapDivRef.current, {
@@ -74,20 +195,54 @@ export default function MapsPage() {
       });
       mapRef.current = map;
 
-      markersRef.current = mapLocations.map((loc) => {
+      setLoadingStatus('Locating opportunities...');
+
+      // Wait for Vite's module graph to fully resolve scrapedOpportunities.json
+      // before reading organizations. 150ms is enough on all tested machines.
+      await new Promise(r => setTimeout(r, 150));
+      if (cancelled) return;
+
+      // Re-import organizations dynamically to guarantee we get the fully
+      // resolved version including scraped data, not a cached partial load
+      const { organizations: orgs } = await import('../data/opportunities');
+      if (cancelled) return;
+
+      // Verify we got the full scraped dataset, not just hardcoded fallback
+      const totalOpps = Object.values(orgs).reduce((s, o) => s + o.opportunities.length, 0);
+      console.log(`MapsPage: loaded ${totalOpps} opportunities`);
+
+      // Build dynamic pins from live opportunities
+      const dynamicPins = await buildDynamicPins(google, orgs, setLoadingStatus);
+      if (cancelled) return;
+
+      setPins(dynamicPins);
+
+      // Place markers
+      markersRef.current.forEach(m => m.setMap(null));
+      const newMarkers = dynamicPins.map((pin) => {
         const marker = new google.maps.Marker({
-          position: { lat: loc.lat, lng: loc.lng },
-          map,
-          title: loc.name,
+          position: { lat: pin.lat, lng: pin.lng },
+          title: pin.name,
         });
-        marker.addListener('click', () => setSelected(loc));
+        marker.addListener('click', () => setSelected(pin));
         return marker;
       });
+      markersRef.current = newMarkers;
+
+      // Use MarkerClusterer if available, otherwise just add markers directly
+      if (window.markerClusterer?.MarkerClusterer) {
+        new window.markerClusterer.MarkerClusterer({ map, markers: newMarkers });
+      } else {
+        newMarkers.forEach(m => m.setMap(map));
+      }
 
       setMapsReady(true);
+      setLoadingStatus('');
     }).catch(() => {
-      setMapsReady(false);
-      setMapsError('Google Maps failed to load. Double check your API key in src/config/googleMapsConfig.js and that billing is enabled on the Google Cloud project.');
+      if (!cancelled) {
+        setMapsError('Google Maps failed to load. Check your API key in src/config/googleMapsConfig.js.');
+        setLoadingStatus('');
+      }
     });
 
     return () => { cancelled = true; };
@@ -97,161 +252,73 @@ export default function MapsPage() {
     setFindError('');
     setTravelTime('');
 
-    try {
-      if (!mapsReady) {
-        setFindError("The map hasn't finished loading yet — wait a moment and try again.");
-        return;
-      }
-      if (!address.trim()) {
-        setFindError('Enter an address first.');
-        return;
-      }
+    if (!mapsReady) { setFindError("The map is still loading — try again in a moment."); return; }
+    if (!address.trim()) { setFindError('Enter an address first.'); return; }
 
-      const google = window.google;
-      if (!google?.maps?.Geocoder) {
-        setFindError('Google Maps geocoding is not available. Try reloading the page.');
-        return;
-      }
+    const google = window.google;
+    if (!google?.maps?.Geocoder) { setFindError('Geocoding not available. Try reloading.'); return; }
 
-      const geocoder = new google.maps.Geocoder();
-
-      // Bias toward Arizona so partial addresses like "1110 W Washington"
-      // resolve correctly without needing city/state/zip
-      geocoder.geocode({
+    const geocoder = new google.maps.Geocoder();
+    geocoder.geocode(
+      {
         address,
         componentRestrictions: { country: 'us' },
         bounds: new google.maps.LatLngBounds(
-          new google.maps.LatLng(31.3, -114.8), // SW Arizona
-          new google.maps.LatLng(37.0, -109.0)  // NE Arizona
+          new google.maps.LatLng(31.3, -114.8),
+          new google.maps.LatLng(37.0, -109.0)
         ),
-      }, (results, status) => {
-        try {
-          if (status !== 'OK' || !results[0]) {
-            setFindError(`Couldn't find that address (Google said: "${status}"). Try a more complete address, e.g. "123 Main St, Phoenix, AZ".`);
-            return;
-          }
-          const userLoc = results[0].geometry.location;
-
-          let closest = null;
-          let closestDist = Infinity;
-
-          // Exclude the generic representative markers — only match real named opportunities
-          const searchableLocations = mapLocations.filter(loc =>
-            !loc.name.startsWith('HandsOn Greater Phoenix opportunities') &&
-            !loc.name.startsWith('City of Flagstaff opportunities')
-          );
-
-          for (const loc of searchableLocations) {
-            const d = google.maps.geometry?.spherical?.computeDistanceBetween
-              ? google.maps.geometry.spherical.computeDistanceBetween(
-                  userLoc, new google.maps.LatLng(loc.lat, loc.lng)
-                )
-              : haversineDistance(userLoc.lat(), userLoc.lng(), loc.lat, loc.lng);
-            if (d < closestDist) {
-              closestDist = d;
-              closest = loc;
-            }
-          }
-          if (!closest) {
-            setFindError('No opportunities found.');
-            return;
-          }
-
-          setSelected(closest);
-          mapRef.current.panTo({ lat: closest.lat, lng: closest.lng });
-          mapRef.current.setZoom(11);
-
-          const directionsService = new google.maps.DirectionsService();
-          directionsService.route(
-            {
-              origin: userLoc,
-              destination: { lat: closest.lat, lng: closest.lng },
-              travelMode: google.maps.TravelMode.DRIVING,
-            },
-            (result, dirStatus) => {
-              if (dirStatus === 'OK') {
-                const leg = result.routes[0].legs[0];
-                const minutes = Math.round(leg.duration.value / 60);
-                const miles = (leg.distance.value / 1609.34).toFixed(1);
-                const displayName = closest.name
-                  .replace(/HandsOn Greater Phoenix opportunities — /i, 'HandsOn: ')
-                  .replace(/City of Flagstaff opportunities — /i, 'Flagstaff: ');
-                setTravelTime(`📍 ${displayName} — ${miles} mi · ${minutes} min away`);
-              } else {
-                setFindError(`Found the nearest opportunity (${closest.name}), but couldn't calculate drive time.`);
-              }
-            }
-          );
-        } catch (innerErr) {
-          console.error('Quest Maps geocode callback error:', innerErr);
-          setFindError(`Something went wrong processing the result: ${innerErr.message}`);
+      },
+      (results, status) => {
+        if (status !== 'OK' || !results[0]) {
+          setFindError(`Couldn't find that address. Try adding a city, e.g. "1110 W Washington, Phoenix".`);
+          return;
         }
-      });
-    } catch (err) {
-      console.error('Quest Maps findNearestOpportunity error:', err);
-      setFindError(`Something went wrong: ${err.message}`);
-    }
+        const userLoc = results[0].geometry.location;
+
+        // Only search real named pins (not generic markers)
+        let closest = null;
+        let closestDist = Infinity;
+        for (const pin of pins) {
+          const d = google.maps.geometry?.spherical?.computeDistanceBetween
+            ? google.maps.geometry.spherical.computeDistanceBetween(
+                userLoc, new google.maps.LatLng(pin.lat, pin.lng)
+              )
+            : haversineDistance(userLoc.lat(), userLoc.lng(), pin.lat, pin.lng);
+          if (d < closestDist) { closestDist = d; closest = pin; }
+        }
+
+        if (!closest) { setFindError('No mapped opportunities found.'); return; }
+
+        setSelected(closest);
+        mapRef.current.panTo({ lat: closest.lat, lng: closest.lng });
+        mapRef.current.setZoom(13);
+
+        const directionsService = new google.maps.DirectionsService();
+        directionsService.route(
+          {
+            origin: userLoc,
+            destination: { lat: closest.lat, lng: closest.lng },
+            travelMode: google.maps.TravelMode.DRIVING,
+          },
+          (result, dirStatus) => {
+            if (dirStatus === 'OK') {
+              const leg = result.routes[0].legs[0];
+              const minutes = Math.round(leg.duration.value / 60);
+              const miles = (leg.distance.value / 1609.34).toFixed(1);
+              setTravelTime(`📍 ${closest.name} — ${miles} mi · ${minutes} min away`);
+            } else {
+              setFindError(`Found nearest opportunity (${closest.name}) but couldn't calculate drive time.`);
+            }
+          }
+        );
+      }
+    );
   }
 
   function viewOrganization() {
     if (!selected) return;
-
-    const name = selected.name;
-
-    // Representative city markers — route straight to org page
-    if (name.startsWith('HandsOn Greater Phoenix opportunities')) {
-      navigate(ORG_ROUTES.handsOnGreaterPhoenix); setSelected(null); return;
-    }
-    if (name.startsWith('City of Flagstaff opportunities')) {
-      navigate(ORG_ROUTES.cityOfFlagstaff); setSelected(null); return;
-    }
-
-    // Try exact match first
-    const orgKey = findOrgByOpportunityName(name);
-    if (orgKey && ORG_ROUTES[orgKey]) {
-      navigate(ORG_ROUTES[orgKey]); setSelected(null); return;
-    }
-
-    // Keyword fallback — covers markers whose names don't exactly match an opportunity
-    const n = name.toLowerCase();
-    if (n.includes('handson') || n.includes('hands on') || n.includes('homebase') ||
-        n.includes('kiwanis') || n.includes('tempe town lake') || n.includes('trashtag') ||
-        n.includes('topgolf') || n.includes('hope') || n.includes('isaac') ||
-        n.includes('wildcat ranch') || n.includes('st. vincent') || n.includes('st vincent') ||
-        n.includes('grief') || n.includes('maggie') || n.includes('rise and dine') ||
-        n.includes('afternoon sort') || n.includes('pizza') || n.includes('administrative tasks')) {
-      navigate(ORG_ROUTES.handsOnGreaterPhoenix); setSelected(null); return;
-    }
-    if (n.includes('state park') || n.includes('jerome') || n.includes('picacho') ||
-        n.includes('rockin') || n.includes('catalina') || n.includes('red rock') ||
-        n.includes('fort verde')) {
-      navigate(ORG_ROUTES.arizonaStateParks); setSelected(null); return;
-    }
-    if (n.includes('flagstaff') || n.includes('bonito') || n.includes('southside') ||
-        n.includes('hal jensen') || n.includes('picture canyon') || n.includes('mars hill') ||
-        n.includes('full moon') || n.includes('mushroom') || n.includes('invasive weed') ||
-        n.includes('garden maintenance')) {
-      navigate(ORG_ROUTES.cityOfFlagstaff); setSelected(null); return;
-    }
-    if (n.includes('lost our home') || n.includes('shadow shift') || n.includes('shelter care') ||
-        n.includes('pet rescue')) {
-      navigate(ORG_ROUTES.lostOurHomesPetRescue); setSelected(null); return;
-    }
-    if (n.includes('fmsc') || n.includes('feed my starving') || n.includes('mobilepack')) {
-      navigate(ORG_ROUTES.feedMyStarvingChildren); setSelected(null); return;
-    }
-    if (n.includes('junior achievement') || n.includes('jaaz') || n.includes('high school heroes')) {
-      navigate('/org/junior-achievement'); setSelected(null); return;
-    }
-    if (n.includes('sustainability') || n.includes('azsustain')) {
-      navigate(ORG_ROUTES.azSustainabilityAlliance); setSelected(null); return;
-    }
-    if (n.includes('bureau') || n.includes('blm') || n.includes('land management') ||
-        n.includes('freedom 250') || n.includes('wood river')) {
-      navigate(ORG_ROUTES.bureauOfLandManagement); setSelected(null); return;
-    }
-
-    // Last resort — still close the sheet
+    const route = ORG_ROUTES[selected.orgKey];
+    if (route) navigate(route);
     setSelected(null);
   }
 
@@ -264,7 +331,7 @@ export default function MapsPage() {
           <div className="maps-map-canvas" ref={mapDivRef} />
         ) : (
           <div className="maps-not-configured">
-            <p>The map can't load yet — add your Google Maps API key in<br /><code>src/config/googleMapsConfig.js</code></p>
+            <p>Add your Google Maps API key in <code>src/config/googleMapsConfig.js</code></p>
           </div>
         )}
 
@@ -274,29 +341,35 @@ export default function MapsPage() {
           </div>
         )}
 
+        {loadingStatus && (
+          <div className="maps-loading-banner">
+            <span className="maps-loading-spinner" /> {loadingStatus}
+          </div>
+        )}
+
         <div className="maps-search-panel">
           <input
             className="maps-address-input"
             placeholder="Address"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && findNearestOpportunity()}
           />
           <button className="maps-find-btn" onClick={findNearestOpportunity}>
             Find Nearest Opportunity
           </button>
           {findError && <span className="maps-find-error">{findError}</span>}
           {travelTime && <span className="maps-travel-time">{travelTime}</span>}
+          <p className="maps-location-note">
+            📌 Some pin locations are approximate based on the area listed. Register with the organization for exact details.
+          </p>
         </div>
       </div>
 
       {selected && (
         <div className="maps-sheet-overlay" onClick={() => setSelected(null)}>
           <div className="maps-sheet" onClick={(e) => e.stopPropagation()}>
-            <span className="maps-sheet-name">
-              {selected.name
-                .replace(/HandsOn Greater Phoenix opportunities — /i, 'HandsOn: ')
-                .replace(/City of Flagstaff opportunities — /i, 'Flagstaff: ')}
-            </span>
+            <span className="maps-sheet-name">{selected.name}</span>
             <button className="maps-sheet-btn" onClick={viewOrganization}>
               Click to View Organization
             </button>
@@ -307,7 +380,6 @@ export default function MapsPage() {
   );
 }
 
-// Fallback distance calc if google.maps.geometry library isn't loaded
 function haversineDistance(lat1, lng1, lat2, lng2) {
   const R = 6371000;
   const toRad = (d) => (d * Math.PI) / 180;

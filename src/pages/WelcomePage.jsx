@@ -26,7 +26,7 @@ export default function WelcomePage() {
           </svg>
         </div>
 
-        <h1 className="welcome-title">Welcome to Volunteer Search</h1>
+        <h1 className="welcome-title">Welcome to VolunteerHigh</h1>
 
         <button className="welcome-next-btn" onClick={() => navigate('/home')}>
           Get Started

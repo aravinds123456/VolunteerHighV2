@@ -249,6 +249,7 @@ export const organizations = {
       {
         name: "Preserving History: A Freedom 250 Volunteer Day",
         link: "https://www.blm.gov/get-involved/resource-advisory-councils/near-you/oregon-washington/klamath-falls/volunteer",
+        date: "2026-06-20",
         description: "Join the Bureau of Land Management's Klamath Falls Field Office to take part in hands-on projects that support future generations.\n\nVolunteers are requested to help remove invasive weeds to help the wetland ecosystem.\n\nThe BLM will provide tools and supplies, though volunteers are still encouraged to bring lunch, water, hats, gloves, sturdy shoes, long-sleeved clothing, and a camera to capture the experience!\n\nDate: June 20, 2026\n\nTime: 10 AM - 2 PM\n\nLocation: Wood River Wetland"
       }
     ]
@@ -281,3 +282,13 @@ export function findOrgByOpportunityName(name) {
   }
   return null;
 }
+
+// Apply date filtering to every org so past one-off events are never shown,
+// regardless of which org they belong to. Ongoing opportunities (no date field)
+// are always kept — isUpcoming() returns true when date is absent.
+Object.keys(organizations).forEach(key => {
+  organizations[key] = {
+    ...organizations[key],
+    opportunities: organizations[key].opportunities.filter(o => isUpcoming(o.date, o.description)),
+  };
+});
