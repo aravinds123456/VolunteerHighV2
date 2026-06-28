@@ -75,9 +75,13 @@
 .maps-travel-time {
   color: var(--white);
   font-weight: 600;
-  font-size: 15px;
-  padding-left: 4px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+  font-size: 14px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+  line-height: 1.4;
 }
 
 .maps-find-error {

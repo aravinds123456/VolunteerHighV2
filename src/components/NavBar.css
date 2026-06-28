@@ -8,7 +8,7 @@
   height: 72px;
   width: 100%;
   background: var(--black);
-  padding-right: 160px;
+  padding-right: 30px;
   padding-left: 0;
   font-size: 18px;
   font-weight: 500;
@@ -83,6 +83,11 @@
   z-index: 200;
   display: flex;
   flex-direction: column;
+}
+
+.navbar-org-menu-right {
+  left: auto;
+  right: 0;
 }
 
 .navbar-org-menu-item {

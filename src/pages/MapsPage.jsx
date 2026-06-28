@@ -115,7 +115,16 @@ export default function MapsPage() {
 
       const geocoder = new google.maps.Geocoder();
 
-      geocoder.geocode({ address }, (results, status) => {
+      // Bias toward Arizona so partial addresses like "1110 W Washington"
+      // resolve correctly without needing city/state/zip
+      geocoder.geocode({
+        address,
+        componentRestrictions: { country: 'us' },
+        bounds: new google.maps.LatLngBounds(
+          new google.maps.LatLng(31.3, -114.8), // SW Arizona
+          new google.maps.LatLng(37.0, -109.0)  // NE Arizona
+        ),
+      }, (results, status) => {
         try {
           if (status !== 'OK' || !results[0]) {
             setFindError(`Couldn't find that address (Google said: "${status}"). Try a more complete address, e.g. "123 Main St, Phoenix, AZ".`);
@@ -125,7 +134,14 @@ export default function MapsPage() {
 
           let closest = null;
           let closestDist = Infinity;
-          for (const loc of mapLocations) {
+
+          // Exclude the generic representative markers — only match real named opportunities
+          const searchableLocations = mapLocations.filter(loc =>
+            !loc.name.startsWith('HandsOn Greater Phoenix opportunities') &&
+            !loc.name.startsWith('City of Flagstaff opportunities')
+          );
+
+          for (const loc of searchableLocations) {
             const d = google.maps.geometry?.spherical?.computeDistanceBetween
               ? google.maps.geometry.spherical.computeDistanceBetween(
                   userLoc, new google.maps.LatLng(loc.lat, loc.lng)
@@ -154,10 +170,15 @@ export default function MapsPage() {
             },
             (result, dirStatus) => {
               if (dirStatus === 'OK') {
-                const minutes = Math.round(result.routes[0].legs[0].duration.value / 60);
-                setTravelTime(`${closest.name}: ${minutes} minutes away`);
+                const leg = result.routes[0].legs[0];
+                const minutes = Math.round(leg.duration.value / 60);
+                const miles = (leg.distance.value / 1609.34).toFixed(1);
+                const displayName = closest.name
+                  .replace(/HandsOn Greater Phoenix opportunities — /i, 'HandsOn: ')
+                  .replace(/City of Flagstaff opportunities — /i, 'Flagstaff: ');
+                setTravelTime(`📍 ${displayName} — ${miles} mi · ${minutes} min away`);
               } else {
-                setFindError(`Found the nearest opportunity (${closest.name}), but couldn't calculate drive time (Google said: "${dirStatus}").`);
+                setFindError(`Found the nearest opportunity (${closest.name}), but couldn't calculate drive time.`);
               }
             }
           );
@@ -175,25 +196,62 @@ export default function MapsPage() {
   function viewOrganization() {
     if (!selected) return;
 
-    // The representative HandsOn Phoenix / Flagstaff city markers (added once
-    // those orgs grew to 100+ live, daily-changing opportunities) aren't tied
-    // to one specific opportunity name, so they're matched by name prefix
-    // instead and routed straight to that org's page.
-    if (selected.name.startsWith('HandsOn Greater Phoenix opportunities')) {
-      navigate(ORG_ROUTES.handsOnGreaterPhoenix);
-      setSelected(null);
-      return;
+    const name = selected.name;
+
+    // Representative city markers — route straight to org page
+    if (name.startsWith('HandsOn Greater Phoenix opportunities')) {
+      navigate(ORG_ROUTES.handsOnGreaterPhoenix); setSelected(null); return;
     }
-    if (selected.name.startsWith('City of Flagstaff opportunities')) {
-      navigate(ORG_ROUTES.cityOfFlagstaff);
-      setSelected(null);
-      return;
+    if (name.startsWith('City of Flagstaff opportunities')) {
+      navigate(ORG_ROUTES.cityOfFlagstaff); setSelected(null); return;
     }
 
-    const orgKey = findOrgByOpportunityName(selected.name);
+    // Try exact match first
+    const orgKey = findOrgByOpportunityName(name);
     if (orgKey && ORG_ROUTES[orgKey]) {
-      navigate(ORG_ROUTES[orgKey]);
+      navigate(ORG_ROUTES[orgKey]); setSelected(null); return;
     }
+
+    // Keyword fallback — covers markers whose names don't exactly match an opportunity
+    const n = name.toLowerCase();
+    if (n.includes('handson') || n.includes('hands on') || n.includes('homebase') ||
+        n.includes('kiwanis') || n.includes('tempe town lake') || n.includes('trashtag') ||
+        n.includes('topgolf') || n.includes('hope') || n.includes('isaac') ||
+        n.includes('wildcat ranch') || n.includes('st. vincent') || n.includes('st vincent') ||
+        n.includes('grief') || n.includes('maggie') || n.includes('rise and dine') ||
+        n.includes('afternoon sort') || n.includes('pizza') || n.includes('administrative tasks')) {
+      navigate(ORG_ROUTES.handsOnGreaterPhoenix); setSelected(null); return;
+    }
+    if (n.includes('state park') || n.includes('jerome') || n.includes('picacho') ||
+        n.includes('rockin') || n.includes('catalina') || n.includes('red rock') ||
+        n.includes('fort verde')) {
+      navigate(ORG_ROUTES.arizonaStateParks); setSelected(null); return;
+    }
+    if (n.includes('flagstaff') || n.includes('bonito') || n.includes('southside') ||
+        n.includes('hal jensen') || n.includes('picture canyon') || n.includes('mars hill') ||
+        n.includes('full moon') || n.includes('mushroom') || n.includes('invasive weed') ||
+        n.includes('garden maintenance')) {
+      navigate(ORG_ROUTES.cityOfFlagstaff); setSelected(null); return;
+    }
+    if (n.includes('lost our home') || n.includes('shadow shift') || n.includes('shelter care') ||
+        n.includes('pet rescue')) {
+      navigate(ORG_ROUTES.lostOurHomesPetRescue); setSelected(null); return;
+    }
+    if (n.includes('fmsc') || n.includes('feed my starving') || n.includes('mobilepack')) {
+      navigate(ORG_ROUTES.feedMyStarvingChildren); setSelected(null); return;
+    }
+    if (n.includes('junior achievement') || n.includes('jaaz') || n.includes('high school heroes')) {
+      navigate('/org/junior-achievement'); setSelected(null); return;
+    }
+    if (n.includes('sustainability') || n.includes('azsustain')) {
+      navigate(ORG_ROUTES.azSustainabilityAlliance); setSelected(null); return;
+    }
+    if (n.includes('bureau') || n.includes('blm') || n.includes('land management') ||
+        n.includes('freedom 250') || n.includes('wood river')) {
+      navigate(ORG_ROUTES.bureauOfLandManagement); setSelected(null); return;
+    }
+
+    // Last resort — still close the sheet
     setSelected(null);
   }
 
@@ -234,7 +292,11 @@ export default function MapsPage() {
       {selected && (
         <div className="maps-sheet-overlay" onClick={() => setSelected(null)}>
           <div className="maps-sheet" onClick={(e) => e.stopPropagation()}>
-            <span className="maps-sheet-name">{selected.name}</span>
+            <span className="maps-sheet-name">
+              {selected.name
+                .replace(/HandsOn Greater Phoenix opportunities — /i, 'HandsOn: ')
+                .replace(/City of Flagstaff opportunities — /i, 'Flagstaff: ')}
+            </span>
             <button className="maps-sheet-btn" onClick={viewOrganization}>
               Click to View Organization
             </button>

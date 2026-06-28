@@ -65,6 +65,14 @@ export default function NavBar({ current }) {
 
       <div className="navbar-spacer" />
 
+      {items.map(item =>
+        current === item.key ? (
+          <span key={item.key} className="navbar-current">{item.label}</span>
+        ) : (
+          <Link key={item.key} to={item.to} className="navbar-link">{item.label}</Link>
+        )
+      )}
+
       <div
         className="navbar-org-dropdown"
         onMouseEnter={handleMenuEnter}
@@ -79,7 +87,7 @@ export default function NavBar({ current }) {
         </button>
 
         {orgMenuOpen && (
-          <div className="navbar-org-menu">
+          <div className="navbar-org-menu navbar-org-menu-right">
             {ORGANIZATIONS.map(org => (
               <Link
                 key={org.to}
@@ -93,14 +101,6 @@ export default function NavBar({ current }) {
           </div>
         )}
       </div>
-
-      {items.map(item =>
-        current === item.key ? (
-          <span key={item.key} className="navbar-current">{item.label}</span>
-        ) : (
-          <Link key={item.key} to={item.to} className="navbar-link">{item.label}</Link>
-        )
-      )}
     </div>
   );
 }

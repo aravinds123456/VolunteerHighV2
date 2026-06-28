@@ -11,4 +11,3 @@ export const GEMINI_MODEL_NAME = "gemini-2.5-flash-lite";
 export function isFirebaseConfigured() {
   return Boolean(GEMINI_API_KEY);
 }
-

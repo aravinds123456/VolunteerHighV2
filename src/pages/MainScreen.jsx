@@ -21,7 +21,7 @@ import './MainScreen.css';
 
 const PARTNERS_ROW1 = [
   { to: '/org/hands-on-greater-phoenix', img: handsOnLogo, name: 'HandsOn Greater Phoenix', circular: true },
-  { to: '/org/arizona-state-parks', img: azParksLogo, name: 'Arizona State Parks and Tails', circular: false },
+  { to: '/org/arizona-state-parks', img: azParksLogo, name: 'Arizona State Parks and Trails', circular: false },
   { to: '/org/city-of-flagstaff', img: flagstaffLogo, name: 'City of Flagstaff', circular: true },
   { to: '/org/junior-achievement', img: jaLogo, name: 'Junior Achievement of Arizona', circular: true },
 ];
@@ -34,6 +34,8 @@ const PARTNERS_ROW2 = [
 ];
 
 function PartnerBox({ to, img, name, circular, isVisible, index, animationsEnabled }) {
+  // When animations are disabled (repeat visit within the same session),
+  // the box just renders fully visible immediately — no fly-in.
   const visible = !animationsEnabled || isVisible;
   return (
     <Link
@@ -54,6 +56,10 @@ export default function MainScreen() {
   const [questRef, questIdentity] = useScrollTransition(0.35);
   const [mapsRef, mapsIdentity] = useScrollTransition(0.35);
 
+  // Determined once on mount: should the staggered partner-box entrance
+  // (and the stat count-up) play this time, or has it already played this
+  // session? Clicking the VolunteerHigh logo (see NavBar.jsx) clears the
+  // session flag before navigating here, allowing a fresh replay.
   const [animationsEnabled] = useState(() => shouldPlayHomeAnimations());
 
   useEffect(() => {
@@ -71,14 +77,17 @@ export default function MainScreen() {
       <NavBar current={null} />
 
       <div className="main-scroll">
+        {/* ---------- HERO ---------- */}
         <div className="hero-section" style={{ backgroundImage: `url(${heroImage})` }}>
           <div className="hero-text">
+            <p className="hero-brand">VolunteerHigh</p>
             <h1 className="hero-line1">Discover Meaningful</h1>
             <h1 className="hero-line2 blue">Student Service</h1>
             <p className="hero-sub">{"Together, we can make a lasting\nimpact and build a better tomorrow\nfor those in need"}</p>
           </div>
         </div>
 
+        {/* ---------- PROJECT / STATS ---------- */}
         <div className="project-section">
           <h2 className="project-title">The VolunteerHigh Project</h2>
           <p className="project-sub">A platform that empowers students to find, explore, and engage in</p>
@@ -105,6 +114,7 @@ export default function MainScreen() {
           </div>
         </div>
 
+        {/* ---------- PARTNERS ---------- */}
         <div className="partners-divider-row" ref={partnersRef}>
           <div className="rule" />
           <span className="label">Our Partner Organizations</span>
@@ -124,6 +134,7 @@ export default function MainScreen() {
           </div>
         </div>
 
+        {/* ---------- QUEST ---------- */}
         <div className="quest-section">
           <div className={`scroll-transition${questIdentity ? ' identity' : ''}`} ref={questRef}>
             <h2 className="quest-heading">Quest - Our Volunteering Recommendation Engine</h2>
@@ -134,6 +145,7 @@ export default function MainScreen() {
           </div>
         </div>
 
+        {/* ---------- MAPS ---------- */}
         <div className="maps-section">
           <div className={`scroll-transition${mapsIdentity ? ' identity' : ''}`} ref={mapsRef}>
             <h2 className="maps-heading">Maps</h2>
