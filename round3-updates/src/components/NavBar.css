@@ -1,0 +1,99 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  height: 72px;
+  width: 100%;
+  background: var(--black);
+  padding-right: 160px;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--white);
+  flex-shrink: 0;
+}
+
+.navbar-logo-link {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 518px;
+  margin-left: -160px;
+  overflow: visible;
+}
+
+.navbar-logo {
+  width: 518px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.navbar-spacer {
+  flex: 1;
+}
+
+.navbar-link,
+.navbar-current {
+  white-space: nowrap;
+  color: var(--white);
+}
+
+.navbar-link {
+  transition: opacity 0.15s ease;
+}
+
+.navbar-link:hover {
+  opacity: 0.7;
+}
+
+.navbar-org-dropdown {
+  position: relative;
+}
+
+.navbar-org-trigger {
+  background: none;
+  border: none;
+  font: inherit;
+  color: var(--white);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.navbar-org-caret {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.navbar-org-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 0;
+  min-width: 280px;
+  background: var(--navy-deep);
+  border: 1px solid rgba(255, 217, 102, 0.25);
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+  padding: 8px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-org-menu-item {
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: var(--white);
+  font-size: 15px;
+  white-space: nowrap;
+  transition: background 0.12s ease;
+}
+
+.navbar-org-menu-item:hover {
+  background: rgba(255, 217, 102, 0.12);
+}
