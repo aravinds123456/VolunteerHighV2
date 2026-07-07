@@ -7,8 +7,12 @@ import './OrgDetailPage.css';
  * Master–Detail layout: left pane scrolls the opportunity list independently
  * from the right pane which scrolls the selected opportunity's description.
  * Exactly like Indeed's split layout.
+ *
+ * `contactEmail` (from src/data/orgContactEmails.js) powers a mailto: button
+ * shown alongside the "View Official Listing" button, so the person can
+ * email the organization directly to ask about a specific opportunity.
  */
-export default function OrgDetailPage({ title, note, opportunities, centerTitle, bannerImage }) {
+export default function OrgDetailPage({ title, note, opportunities, centerTitle, bannerImage, contactEmail }) {
   const [selected, setSelected] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -24,12 +28,18 @@ export default function OrgDetailPage({ title, note, opportunities, centerTitle,
 
   const selectedOpportunity = selected !== null ? opportunities[selected] : null;
 
+  function buildMailtoHref(opportunityName) {
+    if (!contactEmail) return null;
+    const subject = `Volunteering Inquiry — ${opportunityName}`;
+    const body = `Hi,\n\nI'm interested in the "${opportunityName}" volunteer opportunity with ${title}, and I'd like to learn more.\n\nThank you!`;
+    return `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+
   return (
     <div className="org-page">
       {bannerImage && (
         <div className="org-banner" style={{ backgroundImage: `url(${bannerImage})` }} />
       )}
-
 
       <div className={`org-header${centerTitle ? ' center-title' : ''}`}>
         <h1 className="org-title">{title}</h1>
@@ -80,16 +90,26 @@ export default function OrgDetailPage({ title, note, opportunities, centerTitle,
                 <p className="org-detail-description">
                   {linkify(selectedOpportunity.description)}
                 </p>
-                {selectedOpportunity.link && (
-                  <a
-                    className="org-apply-button"
-                    href={selectedOpportunity.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Official Listing ↗
-                  </a>
-                )}
+                <div className="org-detail-actions">
+                  {selectedOpportunity.link && (
+                    <a
+                      className="org-apply-button"
+                      href={selectedOpportunity.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Official Listing ↗
+                    </a>
+                  )}
+                  {contactEmail && (
+                    <a
+                      className="org-apply-button org-apply-button-secondary"
+                      href={buildMailtoHref(selectedOpportunity.name)}
+                    >
+                      ✉ Email {title}
+                    </a>
+                  )}
+                </div>
               </>
             ) : (
               <p className="org-detail-placeholder">

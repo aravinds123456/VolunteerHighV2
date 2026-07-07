@@ -10,10 +10,7 @@
   overflow-y: auto;
 }
 
-/* ---------- HERO ---------- */
-/* SwiftUI used Image("Image").frame(width: 1474, height: 1149) — roughly a
-   1.28:1 width:height ratio. We recreate that with aspect-ratio so it scales
-   responsively but keeps the same proportions/size feel as the original. */
+
 .hero-section {
   position: relative;
   width: 100%;
@@ -28,33 +25,33 @@
 .hero-text {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding-top: 33%;
+  gap: 8px;
+  padding-top: 30%;
   padding-left: 30px;
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .hero-brand {
   font-family: 'CormorantGaramond', serif;
-  font-size: 50px;
-  font-weight: 600;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: 1px;
   color: #ffd966;
-  margin: 0 0 2px 0;
+  margin: 0;
+  line-height: 1;
 }
 
 .hero-line1, .hero-line2 {
   font-family: 'Playfair Display', serif;
-  font-size: 44px;
+  font-size: 55px;
   font-weight: 700;
   color: var(--white);
   margin: 0;
-  line-height: 1.15;
+  line-height: 1.1;
 }
 
 .hero-line2 {
-  margin-top: -4px;
+  margin-top: -10px;
 }
 
 .hero-line2.blue {

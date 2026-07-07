@@ -23,10 +23,10 @@
   justify-content: center;
 }
 
-.welcome-icon-box svg {
-  width: 78px;
-  height: 78px;
-  color: var(--white);
+.welcome-image {
+    width: 105%;
+    height: 105%;
+    object-fit: contain;
 }
 
 .welcome-title {

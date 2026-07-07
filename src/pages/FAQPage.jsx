@@ -3,6 +3,12 @@ import NavBar from '../components/NavBar';
 import { linkify } from '../components/linkify';
 import './FAQPage.css';
 
+import React, { useEffect } from 'react';
+
+
+
+  
+
 const FAQ_ITEMS = [
   {
     question: "Is VolunteerHigh Free?",
@@ -14,7 +20,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "What organizations is VolunteerHigh partnered with?",
-    answer: "VolunteerHigh is partnered with 8 organizations across the valley as of now. We are currently partnered with:\n\n• HandsOn Greater Phoenix\n• Arizona State Parks and Trails\n• City of Flagstaff\n• Junior Achievement of Arizona\n• Feed My Starving Children\n• Arizona Sustainability Alliance\n• Bureau of Land Management Arizona\n• Lost Our Home Pet Rescue"
+    answer: "VolunteerHigh is partnered with 8 organizations across the valley as of now."
   },
   {
     question: "Can I use VolunteerHigh in California?",

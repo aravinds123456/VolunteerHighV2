@@ -5,6 +5,19 @@ import { isFirebaseConfigured } from '../config/firebaseConfig';
 import { organizations } from '../data/opportunities';
 import './QuestPage.css';
 
+/**
+ * Mirrors QuestView.swift:
+ *   "Quest AI" title in CormorantGaramond
+ *   ScrollView of chat bubbles (user: blue/right, ai: gray/left + sparkles icon)
+ *   Bottom input bar with placeholder text + send button
+ *
+ * A NavBar is added here (the original SwiftUI QuestView has none, since it's
+ * reached via NavigationLink push with a native back button) so the toolbar
+ * stays visible and consistent across every page on the web build.
+ *
+ * Firebase/Gemini wiring lives in src/services/questAI.js and
+ * src/config/firebaseConfig.js — see that file for where to paste the API key.
+ */
 export default function QuestPage() {
   const [messages, setMessages] = useState([
     { sender: 'ai', text: "Hi! I'm Quest AI. Tell me your interests and location, and I will find the best volunteer opportunity near you!" }
@@ -19,6 +32,8 @@ export default function QuestPage() {
     }
   }, [messages]);
 
+  // Builds the same opportunities JSON context QuestView.swift loads from
+  // the bundled opportunities.json file, so Quest AI can reference it once configured.
   const opportunitiesContext = JSON.stringify(organizations);
 
   async function sendMessage() {

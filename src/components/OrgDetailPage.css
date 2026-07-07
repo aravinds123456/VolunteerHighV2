@@ -204,9 +204,17 @@
   font-style: italic;
 }
 
+/* ---------- ACTION BUTTONS (apply / email) ---------- */
+.org-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 24px 0;
+}
+
 .org-apply-button {
   display: inline-block;
-  margin: 0 0 24px 0;
+  margin: 0;
   padding: 12px 24px;
   background: #ffd966;
   color: var(--navy-deep);
@@ -221,4 +229,14 @@
 .org-apply-button:hover {
   background: #ffe28a;
   transform: translateY(-1px);
+}
+
+.org-apply-button-secondary {
+  background: transparent;
+  color: #ffd966;
+  border: 1.5px solid #ffd966;
+}
+
+.org-apply-button-secondary:hover {
+  background: rgba(255, 217, 102, 0.12);
 }

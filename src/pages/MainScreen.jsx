@@ -81,9 +81,9 @@ export default function MainScreen() {
         <div className="hero-section" style={{ backgroundImage: `url(${heroImage})` }}>
           <div className="hero-text">
             <p className="hero-brand">VolunteerHigh</p>
-            <h1 className="hero-line1">Discover Meaningful</h1>
-            <h1 className="hero-line2 blue">Student Service</h1>
-            <p className="hero-sub">{"Together, we can make a lasting\nimpact and build a better tomorrow\nfor those in need"}</p>
+            <h1 className="hero-line1">Discover High School</h1>
+            <h1 className="hero-line2 blue">Volunteer Opportunities</h1>
+            <p className="hero-sub">{"Find community service in Arizona.\nTogether, we can make a lasting\nimpact and build a better tomorrow\nfor those in need"}</p>
           </div>
         </div>
 

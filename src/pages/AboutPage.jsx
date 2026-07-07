@@ -1,11 +1,14 @@
 import NavBar from '../components/NavBar';
 import aboutImage from '../assets/images/Image2.png';
-import lostOurHomesImg from '../assets/images/LostOurHomesImage.jpg';
-import fmscImg from '../assets/images/FeedMyStarvingChildrenImage2.jpg';
-import azSustainImg from '../assets/images/ArizonaSustainabilityAllianceImage.jpg';
-import lostOurHomes2Img from '../assets/images/LostOurHomesImage2.jpg';
 import './AboutPage.css';
 
+/**
+ * Mirrors About.swift:
+ *   NavBar
+ *   ZStack { Image2 background, "Our Mission" + body text }
+ *   Divider row "About VolunteerHigh"
+ *   Body paragraph in CormorantGaramond, yellow text, navy-deep background
+ */
 export default function AboutPage() {
   return (
     <div className="about-page">
@@ -29,16 +32,8 @@ export default function AboutPage() {
           </div>
 
           <p className="about-body-text">
-            {"Created By A Student, for Students.\n\nVolunteerHigh is a platform designed to help high school students in Arizona discover meaningful volunteer opportunities\n in their local communities. Finding volunteer work can be difficult, with opportunities scattered across different websites and organizations.\nVolunteerHigh simplifies this process by displaying various organizations in one place."}
+            {"Created By A Student, for Students.\n\nVolunteerHigh is a platform designed to help high school students in Arizona discover meaningful volunteer opportunities\n in their lcoal communities. Finding volunteer work can be difficult, with opportunities scattered across different websites and organizations.\nVolunteerHigh simplifies this process by displaying various organizations in one place."}
           </p>
-
-          {/* Photo grid */}
-          <div className="about-photo-grid">
-            <img src={lostOurHomesImg} alt="Lost Our Home Pet Rescue volunteers" className="about-photo" />
-            <img src={fmscImg} alt="Feed My Starving Children volunteers" className="about-photo" />
-            <img src={azSustainImg} alt="Arizona Sustainability Alliance volunteers" className="about-photo" />
-            <img src={lostOurHomes2Img} alt="Lost Our Home Pet Rescue volunteer" className="about-photo" />
-          </div>
         </div>
       </div>
     </div>

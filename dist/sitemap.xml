@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://volunteerhigh.org/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://volunteerhigh.org/home</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://volunteerhigh.org/quest</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://volunteerhigh.org/maps</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://volunteerhigh.org/about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://volunteerhigh.org/faq</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
