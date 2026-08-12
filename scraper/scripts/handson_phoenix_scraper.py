@@ -44,6 +44,18 @@ from datetime import date, timedelta
 
 ENDPOINT = "https://www.handsonphoenix.org/search/getOpportunitiesCalendar"
 
+def get_current_block_id():
+    resp = requests.get(
+        "https://www.handsonphoenix.org/calendar",
+        headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    match = re.search(r'searchResultBlockId["\']?\s*[:=]\s*["\']?(\d+)', resp.text)
+    if not match:
+        raise ValueError("Could not find searchResultBlockId on calendar page — HandsOn site markup may have changed")
+    return match.group(1)
+
 
 def clean_description(text: str) -> str:
     """Decode HTML entities (e.g. &#39; -> ') and collapse excess blank lines."""
