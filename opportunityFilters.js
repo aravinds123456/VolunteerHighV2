@@ -53,30 +53,6 @@ export function extractMinimumAge(text) {
   return null;
 }
 
-/**
- * Returns true only if:
- *   1. An age requirement could be confidently detected in the text, AND
- *   2. That minimum age is >= minimumAge
- * Use this for sources that DO report age in free text (e.g. HandsOn Phoenix),
- * where "no age mentioned" should be treated as unknown/excluded rather than
- * assumed-fine.
- */
-export function meetsMinimumAge(text, minimumAge = 12) {
-  const age = extractMinimumAge(text);
-  return age !== null && age >= minimumAge;
-}
-
-/**
- * Looser version for sources that don't report age at all in their data
- * (e.g. City of Flagstaff's API never includes an age field or age-mentioning
- * text). For these, "no age stated" is treated as "open to all ages" rather
- * than excluded -- only opportunities that explicitly state an age UNDER the
- * minimum get filtered out.
- */
-export function meetsMinimumAgeOrUnstated(text, minimumAge = 12) {
-  const age = extractMinimumAge(text);
-  return age === null || age >= minimumAge;
-}
 
 /**
  * Returns true if a YYYY-MM-DD date string is today or in the future.
@@ -126,6 +102,5 @@ export function cleanScrapedOpportunities(opportunities, sourceHasAgeData = true
       name: decodeHtmlEntities(opp.name),
       description: decodeHtmlEntities(opp.description),
     }))
-    .filter(opp => ageFilter(opp.description))
     .filter(opp => isUpcoming(opp.date, opp.description));
 }
