@@ -1,48 +1,5 @@
 """
 HandsOn Greater Phoenix volunteer opportunity scraper.
-
-Endpoint discovered via Chrome DevTools Network tab:
-  POST https://www.handsonphoenix.org/search/getOpportunitiesCalendar
-  Content-Type: multipart/form-data
-
-The site renders nothing server-side -- the calendar page is just a shell,
-and this endpoint is what its JavaScript calls to fetch real data. Calling
-it directly skips the need for a headless browser entirely.
-
-Confirmed response shape (verified via --debug against the live site):
-{
-  "message": "The request was success",
-  "code": 200,
-  "items": [
-    {
-      "dayDate": "2026-06-26",
-      "occurrences": [
-        {
-          "opportunityName": "...",
-          "description": "...",
-          "startTime": "6:30 AM",
-          "endTime": "9:00 AM",
-          "locationCity": "Phoenix",
-          "locationState": "AZ",
-          "locationZipCode": "85003",
-          "organizationServedName": "...",
-          "volunteersStillNeeded": "4",
-          "opportunityLink": "https://www.handsonphoenix.org/opportunity/...",
-          ...
-        }
-      ]
-    }
-  ]
-}
-
-IMPORTANT: searchResultBlockId is NOT a stable constant. It identifies the
-specific CMS content block rendering the search widget on the calendar page,
-and it changes whenever the site admin re-publishes/rebuilds that page.
-This is what broke the scraper silently in production before -- a hardcoded
-ID went stale, the endpoint kept returning HTTP 200 with an empty "items"
-list (no error, no exception), and the site quietly stopped updating.
-get_current_block_id() below fetches the current ID fresh on every run
-instead of trusting a value frozen in source code.
 """
 
 import requests
@@ -60,29 +17,25 @@ USER_AGENT = (
 
 
 def get_current_block_id():
-    """
-    Fetches the live calendar page and extracts the current
-    searchResultBlockId from its markup. This value changes whenever the
-    site admin re-publishes the calendar page, so it must never be
-    hardcoded -- always look it up fresh.
-    """
     resp = requests.get(
         "https://www.handsonphoenix.org/calendar",
         headers={"User-Agent": USER_AGENT},
         timeout=20,
     )
     resp.raise_for_status()
-    match = re.search(r'searchResultBlockId["\']?\s*[:=]\s*["\']?(\d+)', resp.text)
+    match = re.search(
+        r'name="calendar-search-block-id"\s+type="hidden"\s+value="(\d+)"',
+        resp.text,
+    )
     if not match:
         raise ValueError(
-            "Could not find searchResultBlockId on calendar page -- "
+            "Could not find calendar-search-block-id on calendar page -- "
             "HandsOn site markup may have changed"
         )
     return match.group(1)
 
 
 def clean_description(text: str) -> str:
-    """Decode HTML entities (e.g. &#39; -> ') and collapse excess blank lines."""
     if not text:
         return ""
     text = html.unescape(text)
@@ -90,8 +43,6 @@ def clean_description(text: str) -> str:
     return text.strip()
 
 
-# Mirrors the multipart form fields seen in DevTools. Empty string = "no filter".
-# Date range defaults to today through 6 weeks out -- adjust as needed.
 def build_payload(start: date, end: date, search_result_block_id: str):
     return {
         "searchResultBlockId": search_result_block_id,
@@ -137,8 +88,6 @@ def fetch_handson_phoenix_opportunities(weeks_ahead: int = 6, debug: bool = Fals
         print(f"--- Using searchResultBlockId: {block_id} ---")
 
     headers = {
-        # Mimics a real browser request -- some sites reject requests
-        # without these even if the endpoint itself is public.
         "Accept": "application/json, text/javascript, */*; q=0.01",
         "X-Requested-With": "XMLHttpRequest",
         "Referer": "https://www.handsonphoenix.org/calendar",
