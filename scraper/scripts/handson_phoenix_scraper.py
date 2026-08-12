@@ -34,6 +34,15 @@ Confirmed response shape (verified via --debug against the live site):
     }
   ]
 }
+
+IMPORTANT: searchResultBlockId is NOT a stable constant. It identifies the
+specific CMS content block rendering the search widget on the calendar page,
+and it changes whenever the site admin re-publishes/rebuilds that page.
+This is what broke the scraper silently in production before -- a hardcoded
+ID went stale, the endpoint kept returning HTTP 200 with an empty "items"
+list (no error, no exception), and the site quietly stopped updating.
+get_current_block_id() below fetches the current ID fresh on every run
+instead of trusting a value frozen in source code.
 """
 
 import requests
@@ -44,16 +53,31 @@ from datetime import date, timedelta
 
 ENDPOINT = "https://www.handsonphoenix.org/search/getOpportunitiesCalendar"
 
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
+
+
 def get_current_block_id():
+    """
+    Fetches the live calendar page and extracts the current
+    searchResultBlockId from its markup. This value changes whenever the
+    site admin re-publishes the calendar page, so it must never be
+    hardcoded -- always look it up fresh.
+    """
     resp = requests.get(
         "https://www.handsonphoenix.org/calendar",
-        headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"},
+        headers={"User-Agent": USER_AGENT},
         timeout=20,
     )
     resp.raise_for_status()
     match = re.search(r'searchResultBlockId["\']?\s*[:=]\s*["\']?(\d+)', resp.text)
     if not match:
-        raise ValueError("Could not find searchResultBlockId on calendar page — HandsOn site markup may have changed")
+        raise ValueError(
+            "Could not find searchResultBlockId on calendar page -- "
+            "HandsOn site markup may have changed"
+        )
     return match.group(1)
 
 
@@ -65,9 +89,10 @@ def clean_description(text: str) -> str:
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
 
+
 # Mirrors the multipart form fields seen in DevTools. Empty string = "no filter".
 # Date range defaults to today through 6 weeks out -- adjust as needed.
-def build_payload(start: date, end: date, search_result_block_id: str = "373"):
+def build_payload(start: date, end: date, search_result_block_id: str):
     return {
         "searchResultBlockId": search_result_block_id,
         "isRecreateAction": "false",
@@ -107,7 +132,7 @@ def fetch_handson_phoenix_opportunities(weeks_ahead: int = 6, debug: bool = Fals
     today = date.today()
     end = today + timedelta(weeks=weeks_ahead)
 
-    block_id = get_current_block_id()   # <-- add this line
+    block_id = get_current_block_id()
     if debug:
         print(f"--- Using searchResultBlockId: {block_id} ---")
 
@@ -117,11 +142,10 @@ def fetch_handson_phoenix_opportunities(weeks_ahead: int = 6, debug: bool = Fals
         "Accept": "application/json, text/javascript, */*; q=0.01",
         "X-Requested-With": "XMLHttpRequest",
         "Referer": "https://www.handsonphoenix.org/calendar",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "User-Agent": USER_AGENT,
     }
 
-    payload = build_payload(today, end, search_result_block_id=block_id)   # <-- was: build_payload(today, end)
+    payload = build_payload(today, end, search_result_block_id=block_id)
 
     resp = requests.post(ENDPOINT, data=payload, headers=headers, timeout=20)
     resp.raise_for_status()
