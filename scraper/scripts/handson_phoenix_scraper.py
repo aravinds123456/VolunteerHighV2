@@ -107,6 +107,10 @@ def fetch_handson_phoenix_opportunities(weeks_ahead: int = 6, debug: bool = Fals
     today = date.today()
     end = today + timedelta(weeks=weeks_ahead)
 
+    block_id = get_current_block_id()   # <-- add this line
+    if debug:
+        print(f"--- Using searchResultBlockId: {block_id} ---")
+
     headers = {
         # Mimics a real browser request -- some sites reject requests
         # without these even if the endpoint itself is public.
@@ -117,7 +121,7 @@ def fetch_handson_phoenix_opportunities(weeks_ahead: int = 6, debug: bool = Fals
                        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
     }
 
-    payload = build_payload(today, end)
+    payload = build_payload(today, end, search_result_block_id=block_id)   # <-- was: build_payload(today, end)
 
     resp = requests.post(ENDPOINT, data=payload, headers=headers, timeout=20)
     resp.raise_for_status()
