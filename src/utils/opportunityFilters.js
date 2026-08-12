@@ -22,79 +22,20 @@ export function decodeHtmlEntities(text) {
 }
 
 /**
- * Best-effort extraction of the minimum volunteer age from free-text
- * descriptions like:
- *   "The minimum age for this volunteer opportunity is 9 with a parent..."
- *   "Age: 12+"
- *   "Volunteers must be 16 years or older to sign up."
- *   "minimum age to volunteer for this opportunitiy is 8, however..."
- * Returns a number, or null if no age requirement could be confidently found.
- */
-export function extractMinimumAge(text) {
-  if (!text) return null;
-
-  const patterns = [
-    /minimum age[a-z\s]*(?:for this (?:volunteer )?(?:opportunity|opportunitiy|project)\s*)?is\s+(\d{1,2})/i,
-    /age[a-z\s]*requirement[a-z\s]*(\d{1,2})/i,
-    /must be\s+(\d{1,2})\s+years?\s+(?:of age\s+)?or older/i,
-    /age:\s*(\d{1,2})\s*\+/i,
-    /ages?\s+(\d{1,2})\+/i,
-    /volunteers? must be at least\s+(\d{1,2})/i,
-  ];
-
-  for (const pattern of patterns) {
-    const match = text.match(pattern);
-    if (match) {
-      const age = parseInt(match[1], 10);
-      if (!isNaN(age) && age >= 0 && age <= 99) return age;
-    }
-  }
-
-  return null;
-}
-
-/**
- * Returns true only if:
- *   1. An age requirement could be confidently detected in the text, AND
- *   2. That minimum age is >= minimumAge
- * Use this for sources that DO report age in free text (e.g. HandsOn Phoenix),
- * where "no age mentioned" should be treated as unknown/excluded rather than
- * assumed-fine.
- */
-export function meetsMinimumAge(text, minimumAge = 12) {
-  const age = extractMinimumAge(text);
-  return age !== null && age >= minimumAge;
-}
-
-/**
- * Looser version for sources that don't report age at all in their data
- * (e.g. City of Flagstaff's API never includes an age field or age-mentioning
- * text). For these, "no age stated" is treated as "open to all ages" rather
- * than excluded -- only opportunities that explicitly state an age UNDER the
- * minimum get filtered out.
- */
-export function meetsMinimumAgeOrUnstated(text, minimumAge = 12) {
-  const age = extractMinimumAge(text);
-  return age === null || age >= minimumAge;
-}
-
-/**
  * Returns true if a YYYY-MM-DD date string is today or in the future.
  * Also checks description text for a date pattern like "2026-06-27 |" as fallback,
  * since scraped opportunities may embed the date in the description rather than
  * a dedicated field. Opportunities with no detectable date are always kept.
  */
 export function isUpcoming(dateString, description) {
-  // Try the dedicated date field first
   let dateToCheck = dateString;
 
-  // Fallback: extract YYYY-MM-DD from description text (e.g. "2026-06-27 | 8:30 AM")
   if (!dateToCheck && description) {
     const match = description.match(/(\d{4}-\d{2}-\d{2})\s*\|/);
     if (match) dateToCheck = match[1];
   }
 
-  if (!dateToCheck) return true; // no date found — keep it
+  if (!dateToCheck) return true;
 
   const date = new Date(dateToCheck + 'T23:59:59');
   if (isNaN(date.getTime())) return true;
@@ -104,28 +45,21 @@ export function isUpcoming(dateString, description) {
 }
 
 /**
- * Runs the full cleanup pipeline on a raw scraped opportunities array:
- * decode entities, filter by age, filter to non-expired.
+ * Runs the cleanup pipeline on scraped opportunities:
+ * - Decodes HTML entities (Chef&#39;s -> Chef's)
+ * - Removes opportunities whose date has already passed
  *
- * `sourceHasAgeData` controls which age rule applies:
- *   true  -> strict: must explicitly state an age of 12+ (e.g. HandsOn Phoenix,
- *            whose descriptions reliably mention a minimum age)
- *   false -> lenient: only excludes opportunities that explicitly state an
- *            age UNDER 12; unstated age is treated as open to all ages
- *            (e.g. City of Flagstaff, whose data never mentions age at all --
- *            applying the strict rule there would wipe out every listing)
- *
- * Hardcoded (non-scraped) data is intentionally NOT run through this at all,
- * since the person curated that list by hand already.
+ * Age filtering has been removed. The regex-based approach was too fragile —
+ * it was silently dropping valid opportunities that described age differently
+ * or not at all (e.g. "Morning Kitchen Crew", "Kid Connection"). All scraped
+ * opportunities are now shown; the date filter ensures expired ones are hidden.
  */
-export function cleanScrapedOpportunities(opportunities, sourceHasAgeData = true) {
-  const ageFilter = sourceHasAgeData ? meetsMinimumAge : meetsMinimumAgeOrUnstated;
+export function cleanScrapedOpportunities(opportunities) {
   return opportunities
     .map(opp => ({
       ...opp,
       name: decodeHtmlEntities(opp.name),
       description: decodeHtmlEntities(opp.description),
     }))
-    .filter(opp => ageFilter(opp.description))
     .filter(opp => isUpcoming(opp.date, opp.description));
 }
