@@ -101,22 +101,6 @@ If you would like to register your child, please email the opportunity coordinat
 
 This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
 
-2026-08-18 | 6:30 AM - 9:00 AM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EsINNMA3",date:"2026-08-18"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
-
-There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
-
-Please Note: Volunteers serving court-ordered volunteer hours must register directly through St. Vincent de Paul and attend a virtual orientation before being scheduled to volunteer.
-
-The minimum age for this volunteer opportunity is 9 with a parent or guardian. All volunteers under the age of 14 must be accompanied by a parent/guardian. Volunteers ages 14 through 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
-
 2026-08-19 | 6:30 AM - 9:00 AM
 
 Location: Phoenix, AZ, 85003
@@ -169,7 +153,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in, pleas
 
 Location: Phoenix, AZ, 85007
 
-Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Eqi2XMAR",date:"2026-08-21"},{name:"Site Beautification at YWCA",description:`Part of YWCA's mission is to mitigate aging’s most harmful threats through home-delivered meals and senior centers. The organization provides safe spaces where older adults can congregate, share a meal, crack a smile, and create community.
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Eqi2XMAR",date:"2026-08-21"},{name:"Site Beautification at YWCA",description:`Part of YWCA's mission is to mitigate aging’s most harmful threats through home-delivered meals and senior centers. The organization provides safe spaces where older adults can congregate, share a meal, crack a smile, and create community.
 
 Do you have a knack for organizing, labeling, decluttering, kit asssembly, or decorating? Then this volunteer opportunity is for you! Help YWCA maintain a warm and welcoming environment for senior guests at their main location in Glendale. Tasks will vary each month. A hot lunch will be provided if desired!
 
@@ -249,7 +233,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85006
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008FOpvxMAD",date:"2026-08-22"},{name:"Thrift Shop Assistants at Hope&#39;s Closet",description:`Hope's Closet is New Life Center's social enterprise thrift store, open to both the organization's emergency shelter residents and the local community. Join us at Hope's Closet to collect and sort through clothing donations, move items to the sales floor, and organize clothing racks.
+Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008FOpvxMAD",date:"2026-08-22"},{name:"Thrift Shop Assistants at Hope&#39;s Closet",description:`Hope's Closet is New Life Center's social enterprise thrift store, open to both the organization's emergency shelter residents and the local community. Join us at Hope's Closet to collect and sort through clothing donations, move items to the sales floor, and organize clothing racks.
 
 New Life Center's mission is “Helping to eliminate domestic and sexual violence through support services, education, and expertise.” New Life Center provides services to over 1,100 adults and children each year. In addition to a safe place to stay, they provide advocacy, employment services, legal assistance, comprehensive children's services, transportation and outreach services to individual survivors and their families who have experienced domestic violence, sexual abuse, or human trafficking. All proceeds from Hope's Closet go back to our participating families and help to fund shelter operations. 
 
@@ -509,7 +493,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in, pleas
 
 Location: Phoenix, AZ, 85007
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ErmR1MAJ",date:"2026-08-28"},{name:"Pizza Making with St. Vincent de Paul",description:`Help prepare 150 pizzas for the Friday night dinner service at St. Vincent de Paul. Volunteers will roll out dough, spread out the sauce, layer on toppings, and get the pizzas into the ovens to cook.
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ErmR1MAJ",date:"2026-08-28"},{name:"Pizza Making with St. Vincent de Paul",description:`Help prepare 150 pizzas for the Friday night dinner service at St. Vincent de Paul. Volunteers will roll out dough, spread out the sauce, layer on toppings, and get the pizzas into the ovens to cook.
 
 Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts). Hairnets, gloves, and aprons will be provided, but pizza making can get messy, so dress accordingly!
 
@@ -527,19 +511,7 @@ The project calendar is designed for individuals and families looking to volunte
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 12`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007U1jGMMAZ",date:"2026-08-28"},{name:"BINGO! at Osborn Pointe",description:`Osborn Pointe is a 48-unit supportive housing community designed to serve individuals 55 and over.
-
-Join the residents of Osborn Pointe for a fun game of BINGO! Volunteers will help run the game, read the winning numbers, and hand out prizes. Bring your smile and a positive attitude to set residents up for a wonderful weekend!
-
-Please arrive at least 5 minutes early. The game will begin promptly at 3pm.
-
-The minimum age for this project is 12 with a parent or guardian. All volunteers under the age of 18 must be accompanied by an adult.
-
-2026-08-28 | 3:00 PM - 4:00 PM
-
-Location: Phoenix, AZ, 85012
-
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008QMzGLMA1",date:"2026-08-28"},{name:"Evening Meal Service at St. Vincent de Paul- Phoenix Dining Room",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
+Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007U1jGMMAZ",date:"2026-08-28"},{name:"Evening Meal Service at St. Vincent de Paul- Phoenix Dining Room",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
 
 Our dining room volunteers create a warm and welcoming environment and assist with tasks that include, but are not limited to dining room set up, guest greeting, serving, bussing tables, waiting on tables, washing dishes, dining room clean-up, and assisting with the distribution of clothing and supplies to our dining room guests.
 
@@ -555,7 +527,19 @@ This project is led by the staff at St. Vincent de Paul. When you sign in, pleas
 
 Location: Phoenix, AZ, 85007
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ErCRyMAN",date:"2026-08-28"},{name:"Mountain Area Swim Competition in Cottonwood (Referral)",description:`Join Special Olympics Arizona for a Mountain Area Swim Competition in Cottonwood.
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ErCRyMAN",date:"2026-08-28"},{name:"BINGO! at Osborn Pointe",description:`Osborn Pointe is a 48-unit supportive housing community designed to serve individuals 55 and over.
+
+Join the residents of Osborn Pointe for a fun game of BINGO! Volunteers will help run the game, read the winning numbers, and hand out prizes. Bring your smile and a positive attitude to set residents up for a wonderful weekend!
+
+Please arrive at least 5 minutes early. The game will begin promptly at 3pm.
+
+The minimum age for this project is 12 with a parent or guardian. All volunteers under the age of 18 must be accompanied by an adult.
+
+2026-08-28 | 3:00 PM - 4:00 PM
+
+Location: Phoenix, AZ, 85012
+
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008QMzGLMA1",date:"2026-08-28"},{name:"Mountain Area Swim Competition in Cottonwood (Referral)",description:`Join Special Olympics Arizona for a Mountain Area Swim Competition in Cottonwood.
 
  
 
@@ -695,7 +679,13 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKjyMAG",date:"2026-09-01"},{name:"Stove to Table - Kitchen volunteers needed (Referral)",description:`Advance's Stove to Table program delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKjyMAG",date:"2026-09-01"},{name:"Grant Writer (Referral)",description:`Our organization is seeking experienced writers, researchers, and data analysts to assist with storytelling and securing funding that aligns with our mission and vision. We are offering key opportunities for both remote and on-site roles. Specifically, the Grant Writer will be responsible for researching potential funders, drafting proposals, and managing the fundraising calendar. If you are interested in supporting our organization’s advancement, please reach out to us for inquiry and signup via email at dure45@sbuagphx.org. Commitment for at least a year is required and we also welcome negotiation in the terms to be served.
+
+2026-09-01 | 9:00 AM - 2:00 PM
+
+Location: Phoenix, AZ, 85018
+
+Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007TTOFbMAP",date:"2026-09-01"},{name:"Stove to Table - Kitchen volunteers needed (Referral)",description:`Advance's Stove to Table program delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
 
 Each week we prepare and individually package 360 meals for delivery in our kitchen. We rely on volunteers to help us prepare large quantities of ingredients, fresh fruits, and vegetables; as well as package meals and clean the kitchen at the end of a meal. There are two shifts available each Tuesday and Wednesday. Volunteers are welcome to stay for one or more shifts as their schedule allows.
 
@@ -713,13 +703,7 @@ We ask that you come dressed to work in a kitchen; please no open toed shoes. Vo
 
 Location: Phoenix, AZ, 85015
 
-Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cG6qfMAC",date:"2026-09-01"},{name:"Grant Writer (Referral)",description:`Our organization is seeking experienced writers, researchers, and data analysts to assist with storytelling and securing funding that aligns with our mission and vision. We are offering key opportunities for both remote and on-site roles. Specifically, the Grant Writer will be responsible for researching potential funders, drafting proposals, and managing the fundraising calendar. If you are interested in supporting our organization’s advancement, please reach out to us for inquiry and signup via email at dure45@sbuagphx.org. Commitment for at least a year is required and we also welcome negotiation in the terms to be served.
-
-2026-09-01 | 9:00 AM - 2:00 PM
-
-Location: Phoenix, AZ, 85018
-
-Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007TTOFbMAP",date:"2026-09-01"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cG6qfMAC",date:"2026-09-01"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -763,7 +747,7 @@ The minimum age for this project is 18 (adults only).
 
 Location: Phoenix, AZ, 85034
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007iOb3jMAC",date:"2026-09-02"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007iOb3jMAC",date:"2026-09-02"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -877,7 +861,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Glendale, AZ, 85302
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007U1OsjMAF",date:"2026-09-05"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007U1OsjMAF",date:"2026-09-05"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1093,7 +1077,7 @@ If you have questions, Contact Pam at 602-361-7058
 
 Location: Tempe, AZ, 85281
 
-Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000089mzHmMAI",date:"2026-09-10"},{name:"Game Night at MANA House",description:`Bring your A-game for this fun social event at MANA House, a peer-support organization of homeless and formerly homeless veterans! Volunteers will facilitate Bingo for the Veterans residing at the facility. Join us to help bring joy to those who have valiantly served our country.
+Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000089mzHmMAI",date:"2026-09-10"},{name:"Game Night at MANA House",description:`Bring your A-game for this fun social event at MANA House, a peer-support organization of homeless and formerly homeless veterans! Volunteers will facilitate Bingo for the Veterans residing at the facility. Join us to help bring joy to those who have valiantly served our country.
 
 The minimum age for this volunteer opportunity is 18.
 
@@ -1204,7 +1188,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Surprise, AZ, 85378
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007u69dfMAA",date:"2026-09-11"},{name:"Four Peaks Swim Competition in Mesa- Multiple Shifts (Referral)",description:`Join Special Olympics Arizona for a Four Peaks Area Swim Competition in Mesa! 
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007u69dfMAA",date:"2026-09-11"},{name:"Four Peaks Swim Competition in Mesa- Multiple Shifts (Referral)",description:`Join Special Olympics Arizona for a Four Peaks Area Swim Competition in Mesa! 
 
  
 
@@ -2386,7 +2370,59 @@ We have a new volunteer registration system so please email volunteer@specialoly
 
 Location: Peoria, AZ, 85381
 
-Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EDse5MAD",date:"2026-09-29"}]},Sg={title:"City of Flagstaff",note:null,opportunities:[{name:"Invasive Weed Identification, Removal & Reseeding (1/9)",description:`Come help us manage invasive weeds at Picture Canyon, to keep it the beautiful place that it is!  Learn about invasive weeds, learn to identify them and the best ways to remove them, and help us spread native grass/flower seed to crowd out the invasives. This event is (almost) every other Wednesday morning from June-September, 7-10am. We meet at the Picture Canyon trail head, 3920 N El Paso Flagstaff Rd. Come join the fun!
+Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EDse5MAD",date:"2026-09-29"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+
+There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
+
+Please Note: Volunteers serving court-ordered volunteer hours must register directly through St. Vincent de Paul and attend a virtual orientation before being scheduled to volunteer.
+
+The minimum age for this volunteer opportunity is 9 with a parent or guardian. All volunteers under the age of 14 must be accompanied by a parent/guardian. Volunteers ages 14 through 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
+
+2026-09-30 | 6:30 AM - 9:00 AM
+
+Location: Phoenix, AZ, 85003
+
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKkJMAW",date:"2026-09-30"},{name:"Palo Verde Area Bocce Competition (Referral)",description:`Join Special Olympics Arizona for a Palo Verde Area Bocce Competition in Peoria!
+
+ 
+
+Volunteers are needed for event support to keep the competition running smoothly, timing, and as always, cheering the athletes on!
+
+ 
+
+Please click 'Express Interest' below to move forward. 
+
+ 
+
+We have a new volunteer registration system so please email volunteer@specialolympicsarizona.org for questions or assistance getting registered.
+
+2026-09-30 | 8:00 AM - 1:30 PM
+
+Location: Peoria, AZ, 85381
+
+Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EDse6MAD",date:"2026-09-30"},{name:"Stove to Table - Kitchen volunteers needed (Referral)",description:`Advance's Stove to Table program delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
+
+Each week we prepare and individually package 360 meals for delivery in our kitchen. We rely on volunteers to help us prepare large quantities of ingredients, fresh fruits, and vegetables; as well as package meals and clean the kitchen at the end of a meal. There are two shifts available each Tuesday and Wednesday. Volunteers are welcome to stay for one or more shifts as their schedule allows.
+
+Shifts available are Tuesdays, Wednesdays & Thursdays:
+
+	
+Meal Prep - 9:00 AM to 12:00 PM
+
+	
+Packaging & Clean Up - 12:00 PM to 2:00 PM
+
+We ask that you come dressed to work in a kitchen; please no open toed shoes. Volunteers under the age of 18 are welcome with a parent or guardian.
+
+2026-09-30 | 9:00 AM - 1:00 PM
+
+Location: Phoenix, AZ, 85015
+
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cJn9kMAC",date:"2026-09-30"}]},Sg={title:"City of Flagstaff",note:null,opportunities:[{name:"Invasive Weed Identification, Removal & Reseeding (1/9)",description:`Come help us manage invasive weeds at Picture Canyon, to keep it the beautiful place that it is!  Learn about invasive weeds, learn to identify them and the best ways to remove them, and help us spread native grass/flower seed to crowd out the invasives. This event is (almost) every other Wednesday morning from June-September, 7-10am. We meet at the Picture Canyon trail head, 3920 N El Paso Flagstaff Rd. Come join the fun!
 
 2026-05-13 | 7:00 AM - 10:00 AM
 
@@ -2753,7 +2789,7 @@ Category: Gardening`,date:"2026-09-26",link:"https://volunteer.flagstaffaz.gov/C
 
 Location: White Dove Coffee Shop
 
-Category: Stewardship`,date:"2026-08-19",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Arbor Day tree planting!",description:`Arbor Day in Flagstaff is August 25th! (We know, National Arbor Day is in April, but that's a terrible time to plant a tree in Flagstaff.)  Join Open Space and Audubon as we plant trees along the Rio de Flag at Picture Canyon!  Wear sturdy shoes and a sunhat (well, other clothing too...), and bring work gloves, drinking water, and snacks, but we'll have extras!  
+Category: Stewardship`,date:"2026-08-19",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Arbor Day tree planting!",description:`Arbor Day in Flagstaff is August 25th! (We know, National Arbor Day is in April, but that's a terrible time to plant a tree in Flagstaff.)  Join Flagstaff Open Space and Northern AZ Audubon to plant trees and build tree enclosures along the Rio de Flag at Picture Canyon!  Wear sturdy shoes and a sunhat, and bring work gloves, drinking water, and snacks, but we'll have extras!  
 
 2026-08-25 | 8:00 AM - 12:00 PM
 
@@ -2856,7 +2892,7 @@ Location: Corner of N Fremont Blvd and N Boldt Dr in the Cheshire Neighborhood.
 
 2026-09-12 | 9:00 AM - 11:00 AM
 
-• ALL Flagstaff Volunteers - Watershed Volunteers (26 spots available)`,date:"2026-09-12",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Open Spaces Commission meeting",description:`This is a regularly-scheduled Open Spaces Commission meeting, to which the public is involved. Click "Volunteer" if you're a Commissioner, or click on "Sign Up" if you'd like to participate. For more information and for a link to the agenda, visit https://www.flagstaff.az.gov/3327/Open-Spaces-Commission. The place is to be determined; it may be a field visit--we will update!
+• ALL Flagstaff Volunteers - Watershed Volunteers (27 spots available)`,date:"2026-09-12",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Open Spaces Commission meeting",description:`This is a regularly-scheduled Open Spaces Commission meeting, to which the public is involved. Click "Volunteer" if you're a Commissioner, or click on "Sign Up" if you'd like to participate. For more information and for a link to the agenda, visit https://www.flagstaff.az.gov/3327/Open-Spaces-Commission. The place is to be determined; it may be a field visit--we will update!
 
 2026-08-24 | 4:00 PM - 6:00 PM
 
