@@ -101,40 +101,6 @@ If you would like to register your child, please email the opportunity coordinat
 
 This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
 
-2026-08-26 | 6:30 AM - 9:00 AM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EsINTMA3",date:"2026-08-26"},{name:"Stove to Table - Kitchen volunteers needed (Referral)",description:`Advance's Stove to Table program delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
-
-Each week we prepare and individually package 360 meals for delivery in our kitchen. We rely on volunteers to help us prepare large quantities of ingredients, fresh fruits, and vegetables; as well as package meals and clean the kitchen at the end of a meal. There are two shifts available each Tuesday and Wednesday. Volunteers are welcome to stay for one or more shifts as their schedule allows.
-
-Shifts available are Tuesdays, Wednesdays & Thursdays:
-
-	
-Meal Prep - 9:00 AM to 12:00 PM
-
-	
-Packaging & Clean Up - 12:00 PM to 2:00 PM
-
-We ask that you come dressed to work in a kitchen; please no open toed shoes. Volunteers under the age of 18 are welcome with a parent or guardian.
-
-2026-08-26 | 9:00 AM - 1:00 PM
-
-Location: Phoenix, AZ, 85015
-
-Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cCS4bMAG",date:"2026-08-26"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
-
-There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
-
-Please Note: Volunteers serving court-ordered volunteer hours must register directly through St. Vincent de Paul and attend a virtual orientation before being scheduled to volunteer.
-
-The minimum age for this volunteer opportunity is 9 with a parent or guardian. All volunteers under the age of 14 must be accompanied by a parent/guardian. Volunteers ages 14 through 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
-
 2026-08-27 | 6:30 AM - 9:00 AM
 
 Location: Phoenix, AZ, 85003
@@ -169,7 +135,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Mesa, AZ, 85210
 
-Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007Ye69EMAR",date:"2026-08-28"},{name:"Lunch Service at St. Vincent de Paul- Phoenix Dining Room",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
+Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007Ye69EMAR",date:"2026-08-28"},{name:"Lunch Service at St. Vincent de Paul- Phoenix Dining Room",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
 
 Our dining room volunteers create a warm and welcoming environment and assist with tasks that include, but are not limited to dining room set up, guest greeting, serving, bussing tables, waiting on tables, washing dishes, dining room clean-up, and assisting with the distribution of clothing and supplies to our dining room guests.
 
@@ -541,7 +507,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 22`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000080x2vZMAQ",date:"2026-09-05"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
+Volunteers still needed: 21`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000080x2vZMAQ",date:"2026-09-05"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
 
 Work alongside the moms residing at The Michael House in Glendale to help clean and maintain their home.
 
@@ -623,25 +589,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKk2MAG",date:"2026-09-07"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-09-07 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85029
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRDMAY",date:"2026-09-07"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKk2MAG",date:"2026-09-07"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -659,7 +607,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGG9KMAW",date:"2026-09-07"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGG9KMAW",date:"2026-09-07"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-09-07 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85029
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRDMAY",date:"2026-09-07"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -739,7 +705,19 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKk5MAG",date:"2026-09-10"},{name:"Stove to Table - Kitchen volunteers needed (Referral)",description:`Advance's Stove to Table program delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKk5MAG",date:"2026-09-10"},{name:"Donation Packing with The Welcome to America Project",description:`Join us to pack donations for the refugee families that will be welcomed the following Saturday. Donations range from clothing, household items, books, and kitchen items. We need your help to ensure incoming families have everything they need to begin their lives in Arizona!
+
+The minimum age for this volunteer opportunity is 10 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian. 
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+If you have questions, Contact Pam at 602-361-7058
+
+2026-09-10 | 9:00 AM - 11:00 AM
+
+Location: Tempe, AZ, 85281
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000089mzHmMAI",date:"2026-09-10"},{name:"Stove to Table - Kitchen volunteers needed (Referral)",description:`Advance's Stove to Table program delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
 
 Each week we prepare and individually package 360 meals for delivery in our kitchen. We rely on volunteers to help us prepare large quantities of ingredients, fresh fruits, and vegetables; as well as package meals and clean the kitchen at the end of a meal. There are two shifts available each Tuesday and Wednesday. Volunteers are welcome to stay for one or more shifts as their schedule allows.
 
@@ -757,19 +735,7 @@ We ask that you come dressed to work in a kitchen; please no open toed shoes. Vo
 
 Location: Phoenix, AZ, 85015
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cFxsFMAS",date:"2026-09-10"},{name:"Donation Packing with The Welcome to America Project",description:`Join us to pack donations for the refugee families that will be welcomed the following Saturday. Donations range from clothing, household items, books, and kitchen items. We need your help to ensure incoming families have everything they need to begin their lives in Arizona!
-
-The minimum age for this volunteer opportunity is 10 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian. 
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-If you have questions, Contact Pam at 602-361-7058
-
-2026-09-10 | 9:00 AM - 11:00 AM
-
-Location: Tempe, AZ, 85281
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000089mzHmMAI",date:"2026-09-10"},{name:"Game Night at MANA House",description:`Bring your A-game for this fun social event at MANA House, a peer-support organization of homeless and formerly homeless veterans! Volunteers will facilitate Bingo for the Veterans residing at the facility. Join us to help bring joy to those who have valiantly served our country.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cFxsFMAS",date:"2026-09-10"},{name:"Game Night at MANA House",description:`Bring your A-game for this fun social event at MANA House, a peer-support organization of homeless and formerly homeless veterans! Volunteers will facilitate Bingo for the Veterans residing at the facility. Join us to help bring joy to those who have valiantly served our country.
 
 The minimum age for this volunteer opportunity is 18.
 
@@ -852,7 +818,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in, pleas
 
 Location: Phoenix, AZ, 85007
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Y8WESMA3",date:"2026-09-11"},{name:"9/11 Weekend of Service: Evening Meal Service at St. Vincent de Paul- Phoenix",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Y8WESMA3",date:"2026-09-11"},{name:"9/11 Weekend of Service: Evening Meal Service at St. Vincent de Paul- Phoenix",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
 
 Our dining room volunteers create a warm and welcoming environment and assist with tasks that include, but are not limited to dining room set up, guest greeting, serving, bussing tables, waiting on tables, washing dishes, dining room clean-up, and assisting with the distribution of clothing and supplies to our dining room guests.
 
@@ -1113,25 +1079,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKk7MAG",date:"2026-09-14"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-09-14 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85029
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wREMAY",date:"2026-09-14"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKk7MAG",date:"2026-09-14"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1149,7 +1097,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGG9LMAW",date:"2026-09-14"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGG9LMAW",date:"2026-09-14"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-09-14 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85029
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wREMAY",date:"2026-09-14"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1357,21 +1323,7 @@ Thank you for choosing to volunteer and being a force for good in our community!
 
 Location: Prescott, AZ, 86305
 
-Volunteers still needed: 100`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008rhDKOMA2",date:"2026-09-19"},{name:"Rise and Dine at HomeBase",description:`Start your morning off right by providing a warm, wholesome breakfast for homeless youth and young adults (ages 18-24) at HomeBase Youth Services. Serve up pancakes, bacon, eggs and toast with a smile, while giving the residents energy to start their day off right!
-
-Volunteers must wear closed-toe shoes, and long hair must be pulled back.
-
-The minimum age for this volunteer opportunity is 11 with a parent or guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project. 
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-**Please check your Email Junk/Spam folders the week of the event for instructions from the Volunteer Leader.**
-
-2026-09-19 | 8:00 AM - 10:00 AM
-
-Location: Phoenix, AZ, 85014
-
-Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007WbyFPMAZ",date:"2026-09-19"},{name:"Sort and Pack at St. Mary&#39;s Food Bank - Phoenix",description:`Bring your helping hands to sort, pack, and distribute food that will go to other nonprofits and families in crisis at St. Mary's Food Bank Alliance. You will have a blast meeting new people while working the conveyer belt!
+Volunteers still needed: 100`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008rhDKOMA2",date:"2026-09-19"},{name:"Sort and Pack at St. Mary&#39;s Food Bank - Phoenix",description:`Bring your helping hands to sort, pack, and distribute food that will go to other nonprofits and families in crisis at St. Mary's Food Bank Alliance. You will have a blast meeting new people while working the conveyer belt!
 
 St. Mary's Food Bank is always in need of donations. Items such as cereal, canned goods, packages of bottled water, sports drinks, as well as dog and cat food are greatly appreciated. Feel free to bring donations with you to the project.
 
@@ -1416,7 +1368,21 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85009
 
-Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007Ffst4MAB",date:"2026-09-19"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
+Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007Ffst4MAB",date:"2026-09-19"},{name:"Rise and Dine at HomeBase",description:`Start your morning off right by providing a warm, wholesome breakfast for homeless youth and young adults (ages 18-24) at HomeBase Youth Services. Serve up pancakes, bacon, eggs and toast with a smile, while giving the residents energy to start their day off right!
+
+Volunteers must wear closed-toe shoes, and long hair must be pulled back.
+
+The minimum age for this volunteer opportunity is 11 with a parent or guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project. 
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+**Please check your Email Junk/Spam folders the week of the event for instructions from the Volunteer Leader.**
+
+2026-09-19 | 8:00 AM - 10:00 AM
+
+Location: Phoenix, AZ, 85014
+
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007WbyFPMAZ",date:"2026-09-19"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
 
 The minimum age for this volunteer opportunity is 14 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian.
 
@@ -1510,25 +1476,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKkCMAW",date:"2026-09-21"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-09-21 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85029
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRFMAY",date:"2026-09-21"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKkCMAW",date:"2026-09-21"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1546,7 +1494,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGG9MMAW",date:"2026-09-21"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGG9MMAW",date:"2026-09-21"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-09-21 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85029
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRFMAY",date:"2026-09-21"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1846,7 +1812,21 @@ We have a new volunteer registration system so please email volunteer@specialoly
 
 Location: Camp Verde, AZ, 86322
 
-Volunteers still needed: 40`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Dctb0MAB",date:"2026-09-26"},{name:"Four Peaks Area Bocce Competition in Gilbert (Referral)",description:`Join Special Olympics Arizona for a Four Peaks Area Bocce Competition in Gilbert!
+Volunteers still needed: 40`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Dctb0MAB",date:"2026-09-26"},{name:"Shopper Support with Harvest Compassion Center- Maryvale",description:`Harvest Compassion Center's mission is to provide food and clothing in a hope-filled environment to the underserved in the greater Phoenix area. Each center is completely free to the public, allowing all guests to shop freely for food, hygiene, baby and clothing items.
+
+Volunteers will welcome guests, help them shop for the items they need, and keep the center clean and organized throughout the shift. All you need is a big heart and a big smile to make a difference at HCC! View this video to learn more.
+
+The minimum age for this project is 6 with a parent/guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
+
+All volunteers over the age of 13 must complete this brief form upon sign-up! At the end of the form, it will ask if you’re volunteering for community service hours. Please indicate Yes and type HandsOn Phoenix and the date of the project in the text box. No further steps are needed after submission!
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+2026-09-26 | 8:00 AM - 12:00 PM
+
+Location: Phoenix, AZ, 85033
+
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008PmNcaMAF",date:"2026-09-26"},{name:"Four Peaks Area Bocce Competition in Gilbert (Referral)",description:`Join Special Olympics Arizona for a Four Peaks Area Bocce Competition in Gilbert!
 
  
 
@@ -1864,21 +1844,7 @@ We have a new volunteer registration system so please email volunteer@specialoly
 
 Location: Gilbert, AZ, 85234
 
-Volunteers still needed: 60`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Da9IzMAJ",date:"2026-09-26"},{name:"Shopper Support with Harvest Compassion Center- Maryvale",description:`Harvest Compassion Center's mission is to provide food and clothing in a hope-filled environment to the underserved in the greater Phoenix area. Each center is completely free to the public, allowing all guests to shop freely for food, hygiene, baby and clothing items.
-
-Volunteers will welcome guests, help them shop for the items they need, and keep the center clean and organized throughout the shift. All you need is a big heart and a big smile to make a difference at HCC! View this video to learn more.
-
-The minimum age for this project is 6 with a parent/guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-All volunteers over the age of 13 must complete this brief form upon sign-up! At the end of the form, it will ask if you’re volunteering for community service hours. Please indicate Yes and type HandsOn Phoenix and the date of the project in the text box. No further steps are needed after submission!
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-2026-09-26 | 8:00 AM - 12:00 PM
-
-Location: Phoenix, AZ, 85033
-
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008PmNcaMAF",date:"2026-09-26"},{name:"Thrift Shop Assistants at Hope&#39;s Closet",description:`Hope's Closet is New Life Center's social enterprise thrift store, open to both the organization's emergency shelter residents and the local community. Join us at Hope's Closet to collect and sort through clothing donations, move items to the sales floor, and organize clothing racks.
+Volunteers still needed: 60`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Da9IzMAJ",date:"2026-09-26"},{name:"Thrift Shop Assistants at Hope&#39;s Closet",description:`Hope's Closet is New Life Center's social enterprise thrift store, open to both the organization's emergency shelter residents and the local community. Join us at Hope's Closet to collect and sort through clothing donations, move items to the sales floor, and organize clothing racks.
 
 New Life Center's mission is “Helping to eliminate domestic and sexual violence through support services, education, and expertise.” New Life Center provides services to over 1,100 adults and children each year. In addition to a safe place to stay, they provide advocacy, employment services, legal assistance, comprehensive children's services, transportation and outreach services to individual survivors and their families who have experienced domestic violence, sexual abuse, or human trafficking. All proceeds from Hope's Closet go back to our participating families and help to fund shelter operations. 
 
@@ -1978,25 +1944,7 @@ We have a new volunteer registration system so please email volunteer@specialoly
 
 Location: Peoria, AZ, 85381
 
-Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EDse4MAD",date:"2026-09-28"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-09-28 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85029
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRGMAY",date:"2026-09-28"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EDse4MAD",date:"2026-09-28"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -2014,7 +1962,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cFMHcMAO",date:"2026-09-28"},{name:"Chef&#39;s Night Off at HomeBase",description:`Roll up your sleeves and help chop, slice, and dice with love as you prepare and serve dinner for homeless youth and young adults (ages 18-21) at HomeBase Youth Services. You can also help pack lunches that will be distributed throughout the week to homeless youth and young adults. Allow the busy chef to have a nice evening off.
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cFMHcMAO",date:"2026-09-28"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Lindo Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Cave Creek-Larkspur Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-09-28 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85029
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRGMAY",date:"2026-09-28"},{name:"Chef&#39;s Night Off at HomeBase",description:`Roll up your sleeves and help chop, slice, and dice with love as you prepare and serve dinner for homeless youth and young adults (ages 18-21) at HomeBase Youth Services. You can also help pack lunches that will be distributed throughout the week to homeless youth and young adults. Allow the busy chef to have a nice evening off.
 
 Volunteers must wear closed-toe shoes, and long hair should be pulled back.
 
@@ -2208,7 +2174,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85006
 
-Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mZDXBMA4",date:"2026-10-03"},{name:"Garden Volunteers with St. Vincent de Paul (Main Campus)",description:`St. Vincent de Paul's three urban farms produce nutritionally dense food for those who do not have access to proper vitamins and nutrients. Annually, they grow 27,000 pounds of produce, which goes directly to SVdP's kitchens to be prepared for individuals and families experiencing homelessness and food insecurity, or delivered directly to families’ doors.
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mZDXBMA4",date:"2026-10-03"},{name:"Garden Volunteers with St. Vincent de Paul (Main Campus)",description:`St. Vincent de Paul's three urban farms produce nutritionally dense food for those who do not have access to proper vitamins and nutrients. Annually, they grow 27,000 pounds of produce, which goes directly to SVdP's kitchens to be prepared for individuals and families experiencing homelessness and food insecurity, or delivered directly to families’ doors.
 
 Spend your morning fertilizing soil, composting, planting, and harvesting the produce that helps feed the local community!
 
@@ -2252,7 +2218,15 @@ The minimum age for this project is 18 (adults only).
 
 Location: Phoenix, AZ, 85034
 
-Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ju2KWMAY",date:"2026-10-07"}]},Cg={title:"City of Flagstaff",note:null,opportunities:[{name:"Invasive Weed Identification, Removal & Reseeding (1/9)",description:`Come help us manage invasive weeds at Picture Canyon, to keep it the beautiful place that it is!  Learn about invasive weeds, learn to identify them and the best ways to remove them, and help us spread native grass/flower seed to crowd out the invasives. This event is (almost) every other Wednesday morning from June-September, 7-10am. We meet at the Picture Canyon trail head, 3920 N El Paso Flagstaff Rd. Come join the fun!
+Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ju2KWMAY",date:"2026-10-07"},{name:"Game Night at MANA House",description:`Bring your A-game for this fun social event at MANA House, a peer-support organization of homeless and formerly homeless veterans! Volunteers will facilitate Bingo for the Veterans residing at the facility. Join us to help bring joy to those who have valiantly served our country.
+
+The minimum age for this volunteer opportunity is 18.
+
+2026-10-08 | 6:00 PM - 7:30 PM
+
+Location: Phoenix, AZ, 85009
+
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008juiYQMAY",date:"2026-10-08"}]},Cg={title:"City of Flagstaff",note:null,opportunities:[{name:"Invasive Weed Identification, Removal & Reseeding (1/9)",description:`Come help us manage invasive weeds at Picture Canyon, to keep it the beautiful place that it is!  Learn about invasive weeds, learn to identify them and the best ways to remove them, and help us spread native grass/flower seed to crowd out the invasives. This event is (almost) every other Wednesday morning from June-September, 7-10am. We meet at the Picture Canyon trail head, 3920 N El Paso Flagstaff Rd. Come join the fun!
 
 2026-05-13 | 7:00 AM - 10:00 AM
 
