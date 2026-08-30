@@ -89,25 +89,7 @@ Rules:
 5. If no opportunities match well, say so honestly and suggest they check back soon as new opportunities are added daily.`;let ki=[],Pi=null;async function Pg(e,n){var i,a,s,l,u,f;if(!yc())throw new Error("Quest AI isn't configured yet. Add your Gemini API key in src/config/firebaseConfig.js.");Pi||(Pi=kg+`
 
 Volunteer opportunities database:
-`+n),ki.push({role:"user",parts:[{text:e}]});const t=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${wg}:generateContent?key=${mc}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({system_instruction:{parts:[{text:Pi}]},contents:ki,generationConfig:{maxOutputTokens:1e3,temperature:.7}})});if(!t.ok){const c=await t.json().catch(()=>({}));throw new Error(((i=c==null?void 0:c.error)==null?void 0:i.message)||`API error ${t.status}`)}const r=((f=(u=(l=(s=(a=(await t.json()).candidates)==null?void 0:a[0])==null?void 0:s.content)==null?void 0:l.parts)==null?void 0:u[0])==null?void 0:f.text)??"";return ki.push({role:"model",parts:[{text:r}]}),r}const Sg={title:"HandsOn Greater Phoenix",note:null,opportunities:[{name:"Mountain Area Swim Competition in Cottonwood (Referral)",description:`Join Special Olympics Arizona for a Mountain Area Swim Competition in Cottonwood.
-
- 
-
-Volunteers are needed for event support to keep the competition running smoothly, timing, and as always, cheering the athletes on!
-
- 
-
-Please click 'Express Interest' below to move forward. 
-
- 
-
-We have a new volunteer registration system so please email volunteer@specialolympicsarizona.org for questions or assistance getting registered.
-
-2026-08-29 | 7:00 AM - 1:00 PM
-
-Location: Cottonwood, AZ, 86326
-
-Volunteers still needed: 25`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000089milVMAQ",date:"2026-08-29"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+`+n),ki.push({role:"user",parts:[{text:e}]});const t=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${wg}:generateContent?key=${mc}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({system_instruction:{parts:[{text:Pi}]},contents:ki,generationConfig:{maxOutputTokens:1e3,temperature:.7}})});if(!t.ok){const c=await t.json().catch(()=>({}));throw new Error(((i=c==null?void 0:c.error)==null?void 0:i.message)||`API error ${t.status}`)}const r=((f=(u=(l=(s=(a=(await t.json()).candidates)==null?void 0:a[0])==null?void 0:s.content)==null?void 0:l.parts)==null?void 0:u[0])==null?void 0:f.text)??"";return ki.push({role:"model",parts:[{text:r}]}),r}const Sg={title:"HandsOn Greater Phoenix",note:null,opportunities:[{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -385,7 +367,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in, pleas
 
 Location: Phoenix, AZ, 85007
 
-Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WPNFrMAP",date:"2026-09-04"},{name:"From the Ground Up: Volunteer Day at the Ranch (Referral)",description:`Join us for a meaningful day of giving back at Wildcat Ranch Phoenix! This in-person volunteer event is a wonderful opportunity to roll up your sleeves, enjoy the outdoors, and make a direct impact on the ranch and the horses who call it home.
+Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WPNFrMAP",date:"2026-09-04"},{name:"From the Ground Up: Volunteer Day at the Ranch (Referral)",description:`Join us for a meaningful day of giving back at Wildcat Ranch Phoenix! This in-person volunteer event is a wonderful opportunity to roll up your sleeves, enjoy the outdoors, and make a direct impact on the ranch and the horses who call it home.
 
 Volunteers will work together on a variety of hands-on projects, including fence repairs, stall cleaning and refreshing, barn organization, and general facility beautification. These improvements help create a safer, more welcoming environment for our horses and the individuals who participate in our therapy programs.
 
@@ -411,7 +393,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 21`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000080x2vZMAQ",date:"2026-09-05"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
+Volunteers still needed: 19`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000080x2vZMAQ",date:"2026-09-05"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
 
 Work alongside the moms residing at The Michael House in Glendale to help clean and maintain their home.
 
@@ -1272,7 +1254,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85009
 
-Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007Ffst4MAB",date:"2026-09-19"},{name:"Rise and Dine at HomeBase",description:`Start your morning off right by providing a warm, wholesome breakfast for homeless youth and young adults (ages 18-24) at HomeBase Youth Services. Serve up pancakes, bacon, eggs and toast with a smile, while giving the residents energy to start their day off right!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007Ffst4MAB",date:"2026-09-19"},{name:"Rise and Dine at HomeBase",description:`Start your morning off right by providing a warm, wholesome breakfast for homeless youth and young adults (ages 18-24) at HomeBase Youth Services. Serve up pancakes, bacon, eggs and toast with a smile, while giving the residents energy to start their day off right!
 
 Volunteers must wear closed-toe shoes, and long hair must be pulled back.
 
@@ -2018,7 +2000,7 @@ Volunteers will be asked to sign the Salvation Army's volunteer forms upon their
 
 Location: Phoenix, AZ, 85008
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mZrphMAC",date:"2026-10-01"},{name:"Mountain Area Swim Competition in Flagstaff (Referral)",description:`Join Special Olympics Arizona for a Mountain Area Swim Competition in Flagstaff!
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mZrphMAC",date:"2026-10-01"},{name:"Mountain Area Swim Competition in Flagstaff (Referral)",description:`Join Special Olympics Arizona for a Mountain Area Swim Competition in Flagstaff!
 
  
 
@@ -2100,7 +2082,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 19`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008qwTM6MAM",date:"2026-10-03"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
+Volunteers still needed: 18`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008qwTM6MAM",date:"2026-10-03"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
 
 Work alongside the moms residing at The Michael House in Glendale to help clean and maintain their home.
 
@@ -2410,15 +2392,7 @@ Category: Gardening
 
 • ALL Flagstaff Volunteers - Garden Volunteer (0 spots available)
 • ALL Flagstaff Volunteers - Garden Volunteer (0 spots available)
-• ALL Flagstaff Volunteers - Garden Volunteer (0 spots available)`,date:"2026-11-03",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Mushroom Walk!",description:`Join mushroom enthusiasts for the AZ Watchable Wildlife Experience’s morning mushroom walk!\r
-\r
-We will gather folks, have an initial talk about mushrooms, related news and safety, and then hike-and-seek for an hour. “Basket checks” will be offered at the end to confirm the fungi people find. This is a free event but is limited to 20 people and pre-registration is required. The location will be revealed after you register.
-
-2026-08-29 | 11:30 AM - 1:30 PM
-
-Location: Kachina Trail
-
-Category: Special Event`,date:"2026-08-29",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Open Spaces Commission meeting",description:`This is a regularly-scheduled Open Spaces Commission meeting, to which the public is involved. Click "Volunteer" if you're a Commissioner, or click on "Sign Up" if you'd like to participate. For more information and for a link to the agenda, visit https://www.flagstaff.az.gov/3327/Open-Spaces-Commission. 
+• ALL Flagstaff Volunteers - Garden Volunteer (0 spots available)`,date:"2026-11-03",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Open Spaces Commission meeting",description:`This is a regularly-scheduled Open Spaces Commission meeting, to which the public is involved. Click "Volunteer" if you're a Commissioner, or click on "Sign Up" if you'd like to participate. For more information and for a link to the agenda, visit https://www.flagstaff.az.gov/3327/Open-Spaces-Commission. 
 
 2026-09-24 | 4:00 PM - 6:00 PM
 
@@ -2532,15 +2506,7 @@ Category: Special Event`,date:"2026-09-26",link:"https://volunteer.flagstaffaz.g
 
 Location: Hal Jensen Recreation Center Garden
 
-Category: Gardening`,date:"2026-09-26",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Mushroom Walk!",description:`Join mushroom enthusiasts for the AZ Watchable Wildlife Experience’s afternoon mushroom walk!\r
-\r
-We will gather folks, have an initial talk about mushrooms, related news and safety, and then hike-and-seek for an hour. “Basket checks” will be offered at the end to confirm the fungi people find. This is a free event but is limited to 20 people and pre-registration is required. The location will be revealed after you register.
-
-2026-08-29 | 9:00 AM - 11:00 AM
-
-Location: Kachina Trail
-
-Category: Special Event`,date:"2026-08-29",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Garden Maintenance Volunteer Day - Southside (1/6)",description:`Garden volunteer days are a great way to become directly involved in your local community garden, interact with other gardeners, and ensure the gardens continue to thrive in further years. Each volunteer day includes a variety of activities that support the overall health of the gardens. These may range from essential maintenance tasks such as turning compost, weeding, and caring for communal plots to hands-on learning experiences and creative, garden inspired projects. Whether you're looking to build gardening skills, meet new people, or simply spend time outdoors giving back to your community, volunteer days provide something for everyone!
+Category: Gardening`,date:"2026-09-26",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Garden Maintenance Volunteer Day - Southside (1/6)",description:`Garden volunteer days are a great way to become directly involved in your local community garden, interact with other gardeners, and ensure the gardens continue to thrive in further years. Each volunteer day includes a variety of activities that support the overall health of the gardens. These may range from essential maintenance tasks such as turning compost, weeding, and caring for communal plots to hands-on learning experiences and creative, garden inspired projects. Whether you're looking to build gardening skills, meet new people, or simply spend time outdoors giving back to your community, volunteer days provide something for everyone!
 
 2026-06-09 | 4:00 PM - 6:00 PM
 
