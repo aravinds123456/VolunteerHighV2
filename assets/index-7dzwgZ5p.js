@@ -101,40 +101,6 @@ If you would like to register your child, please email the opportunity coordinat
 
 This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
 
-2026-09-23 | 6:30 AM - 9:00 AM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGKkEMAW",date:"2026-09-23"},{name:"Stove to Table - Kitchen volunteers needed (Referral)",description:`Advance's Stove to Table program delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
-
-Each week we prepare and individually package 360 meals for delivery in our kitchen. We rely on volunteers to help us prepare large quantities of ingredients, fresh fruits, and vegetables; as well as package meals and clean the kitchen at the end of a meal. There are two shifts available each Tuesday and Wednesday. Volunteers are welcome to stay for one or more shifts as their schedule allows.
-
-Shifts available are Tuesdays, Wednesdays & Thursdays:
-
-	
-Meal Prep - 9:00 AM to 12:00 PM
-
-	
-Packaging & Clean Up - 12:00 PM to 2:00 PM
-
-We ask that you come dressed to work in a kitchen; please no open toed shoes. Volunteers under the age of 18 are welcome with a parent or guardian.
-
-2026-09-23 | 9:00 AM - 1:00 PM
-
-Location: Phoenix, AZ, 85015
-
-Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cFnw7MAC",date:"2026-09-23"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
-
-There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
-
-Please Note: Volunteers serving court-ordered volunteer hours must register directly through St. Vincent de Paul and attend a virtual orientation before being scheduled to volunteer.
-
-The minimum age for this volunteer opportunity is 9 with a parent or guardian. All volunteers under the age of 14 must be accompanied by a parent/guardian. Volunteers ages 14 through 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
-
 2026-09-24 | 6:30 AM - 9:00 AM
 
 Location: Phoenix, AZ, 85003
@@ -257,19 +223,7 @@ The project calendar is designed for individuals and families looking to volunte
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007U1grdMAB",date:"2026-09-25"},{name:"BINGO! at Osborn Pointe",description:`Osborn Pointe is a 48-unit supportive housing community designed to serve individuals 55 and over.
-
-Join the residents of Osborn Pointe for a fun game of BINGO! Volunteers will help run the game, read the winning numbers, and hand out prizes. Bring your smile and a positive attitude to set residents up for a wonderful weekend!
-
-Please arrive at least 5 minutes early. The game will begin promptly at 3pm.
-
-The minimum age for this project is 12 with a parent or guardian. All volunteers under the age of 18 must be accompanied by an adult.
-
-2026-09-25 | 3:00 PM - 4:00 PM
-
-Location: Phoenix, AZ, 85012
-
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000093kkJyMAI",date:"2026-09-25"},{name:"Evening Meal Service at St. Vincent de Paul- Phoenix Dining Room",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
+Volunteers still needed: 8`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007U1grdMAB",date:"2026-09-25"},{name:"Evening Meal Service at St. Vincent de Paul- Phoenix Dining Room",description:`Those who are experiencing homelessness and food insecurity do not know where or when their next meal is coming. SVdP’s dining rooms around the Valley are thriving places where these individuals can come not only for a hot, nutritious meal and a smile, but to find supportive wrap-around services such as shelter, clothing, medical attention, and housing services. Volunteers create an experience many of us take for granted, an opportunity to feel welcome and part of a family.
 
 Our dining room volunteers create a warm and welcoming environment and assist with tasks that include, but are not limited to dining room set up, guest greeting, serving, bussing tables, waiting on tables, washing dishes, dining room clean-up, and assisting with the distribution of clothing and supplies to our dining room guests.
 
@@ -285,7 +239,19 @@ This project is led by the staff at St. Vincent de Paul. When you sign in, pleas
 
 Location: Phoenix, AZ, 85007
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WLuonMAD",date:"2026-09-25"},{name:"Nature Nurturers at Escalante Community Garden",description:`The Escalante Community Garden is a garden that follows a communal model with healthy growing practices. A portion of the garden’s harvest is given to Tempe Community Action Agency's Food Pantry to supplement emergency food boxes. The garden features a children's area, as well as a desert and herb garden.
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WLuonMAD",date:"2026-09-25"},{name:"BINGO! at Osborn Pointe",description:`Osborn Pointe is a 48-unit supportive housing community designed to serve individuals 55 and over.
+
+Join the residents of Osborn Pointe for a fun game of BINGO! Volunteers will help run the game, read the winning numbers, and hand out prizes. Bring your smile and a positive attitude to set residents up for a wonderful weekend!
+
+Please arrive at least 5 minutes early. The game will begin promptly at 3pm.
+
+The minimum age for this project is 12 with a parent or guardian. All volunteers under the age of 18 must be accompanied by an adult.
+
+2026-09-25 | 3:00 PM - 4:00 PM
+
+Location: Phoenix, AZ, 85012
+
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000093kkJyMAI",date:"2026-09-25"},{name:"Nature Nurturers at Escalante Community Garden",description:`The Escalante Community Garden is a garden that follows a communal model with healthy growing practices. A portion of the garden’s harvest is given to Tempe Community Action Agency's Food Pantry to supplement emergency food boxes. The garden features a children's area, as well as a desert and herb garden.
 
 Volunteers will help care for the garden. Duties may include weeding, planting, pruning, and harvesting!Please wear closed-toe shoes, and clothes that can get dirty. Bring SPF and water!
 
@@ -335,21 +301,7 @@ We have a new volunteer registration system so please email volunteer@specialoly
 
 Location: Lake Havasu City, AZ, 86403
 
-Volunteers still needed: 15`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008DbwcxMAB",date:"2026-09-26"},{name:"Shopper Support with Harvest Compassion Center- Maryvale",description:`Harvest Compassion Center's mission is to provide food and clothing in a hope-filled environment to the underserved in the greater Phoenix area. Each center is completely free to the public, allowing all guests to shop freely for food, hygiene, baby and clothing items.
-
-Volunteers will welcome guests, help them shop for the items they need, and keep the center clean and organized throughout the shift. All you need is a big heart and a big smile to make a difference at HCC! View this video to learn more.
-
-The minimum age for this project is 6 with a parent/guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-All volunteers over the age of 13 must complete this brief form upon sign-up! At the end of the form, it will ask if you’re volunteering for community service hours. Please indicate Yes and type HandsOn Phoenix and the date of the project in the text box. No further steps are needed after submission!
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-2026-09-26 | 8:00 AM - 12:00 PM
-
-Location: Phoenix, AZ, 85033
-
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008PmNcaMAF",date:"2026-09-26"},{name:"September 2026 #TrashTag Cleanup and Stinknet Removal–Tempe Town Lake (Referral)",description:`Join Keep Tempe Beautiful on Saturday, September 26th to clean up Tempe Town Lake and remove invasive stinknet.
+Volunteers still needed: 15`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008DbwcxMAB",date:"2026-09-26"},{name:"September 2026 #TrashTag Cleanup and Stinknet Removal–Tempe Town Lake (Referral)",description:`Join Keep Tempe Beautiful on Saturday, September 26th to clean up Tempe Town Lake and remove invasive stinknet.
 
 We will be in the area in between the Mill Ave bridges right next to North Shore Beach Tempe AZ 85288.
 
@@ -399,7 +351,21 @@ We have a new volunteer registration system so please email volunteer@specialoly
 
 Location: Gilbert, AZ, 85234
 
-Volunteers still needed: 60`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Da9IzMAJ",date:"2026-09-26"},{name:"Thrift Shop Assistants at Hope&#39;s Closet",description:`Hope's Closet is New Life Center's social enterprise thrift store, open to both the organization's emergency shelter residents and the local community. Join us at Hope's Closet to collect and sort through clothing donations, move items to the sales floor, and organize clothing racks.
+Volunteers still needed: 60`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Da9IzMAJ",date:"2026-09-26"},{name:"Shopper Support with Harvest Compassion Center- Maryvale",description:`Harvest Compassion Center's mission is to provide food and clothing in a hope-filled environment to the underserved in the greater Phoenix area. Each center is completely free to the public, allowing all guests to shop freely for food, hygiene, baby and clothing items.
+
+Volunteers will welcome guests, help them shop for the items they need, and keep the center clean and organized throughout the shift. All you need is a big heart and a big smile to make a difference at HCC! View this video to learn more.
+
+The minimum age for this project is 6 with a parent/guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
+
+All volunteers over the age of 13 must complete this brief form upon sign-up! At the end of the form, it will ask if you’re volunteering for community service hours. Please indicate Yes and type HandsOn Phoenix and the date of the project in the text box. No further steps are needed after submission!
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+2026-09-26 | 8:00 AM - 12:00 PM
+
+Location: Phoenix, AZ, 85033
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008PmNcaMAF",date:"2026-09-26"},{name:"Thrift Shop Assistants at Hope&#39;s Closet",description:`Hope's Closet is New Life Center's social enterprise thrift store, open to both the organization's emergency shelter residents and the local community. Join us at Hope's Closet to collect and sort through clothing donations, move items to the sales floor, and organize clothing racks.
 
 New Life Center's mission is “Helping to eliminate domestic and sexual violence through support services, education, and expertise.” New Life Center provides services to over 1,100 adults and children each year. In addition to a safe place to stay, they provide advocacy, employment services, legal assistance, comprehensive children's services, transportation and outreach services to individual survivors and their families who have experienced domestic violence, sexual abuse, or human trafficking. All proceeds from Hope's Closet go back to our participating families and help to fund shelter operations. 
 
@@ -411,25 +377,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Goodyear, AZ, 85338
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007S61VbMAJ",date:"2026-09-26"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-09-27 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85035
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGHXcMAO",date:"2026-09-27"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007S61VbMAJ",date:"2026-09-26"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -447,7 +395,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85041
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cG8u9MAC",date:"2026-09-27"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cG8u9MAC",date:"2026-09-27"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-09-27 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85035
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cGHXcMAO",date:"2026-09-27"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -499,25 +465,7 @@ We have a new volunteer registration system so please email volunteer@specialoly
 
 Location: Peoria, AZ, 85381
 
-Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EDse4MAD",date:"2026-09-28"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at the Roosevelt Mini Park. Simply check the water temperature & water flow and wipe down the unit!
-
-Do you walk by the mini park every morning? Do you ride your bike down Roosevelt Row once a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleaning. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-09-28 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cFMHcMAO",date:"2026-09-28"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EDse4MAD",date:"2026-09-28"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -535,7 +483,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85029
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRGMAY",date:"2026-09-28"},{name:"Chef&#39;s Night Off at HomeBase",description:`Roll up your sleeves and help chop, slice, and dice with love as you prepare and serve dinner for homeless youth and young adults (ages 18-21) at HomeBase Youth Services. You can also help pack lunches that will be distributed throughout the week to homeless youth and young adults. Allow the busy chef to have a nice evening off.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007x8wRGMAY",date:"2026-09-28"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at the Roosevelt Mini Park. Simply check the water temperature & water flow and wipe down the unit!
+
+Do you walk by the mini park every morning? Do you ride your bike down Roosevelt Row once a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleaning. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-09-28 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85003
+
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008cFMHcMAO",date:"2026-09-28"},{name:"Chef&#39;s Night Off at HomeBase",description:`Roll up your sleeves and help chop, slice, and dice with love as you prepare and serve dinner for homeless youth and young adults (ages 18-21) at HomeBase Youth Services. You can also help pack lunches that will be distributed throughout the week to homeless youth and young adults. Allow the busy chef to have a nice evening off.
 
 Volunteers must wear closed-toe shoes, and long hair should be pulled back.
 
@@ -547,7 +513,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85014
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007RyURZMA3",date:"2026-09-28"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00007RyURZMA3",date:"2026-09-28"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -833,11 +799,11 @@ The minimum age for this volunteer opportunity is 8 with a parent or guardian. A
 
 If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
 
-2026-10-03 | 7:00 AM - 10:00 AM
+2026-10-03 | 8:00 AM - 11:00 AM
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 17`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008qwTM6MAM",date:"2026-10-03"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
+Volunteers still needed: 26`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008qwTM6MAM",date:"2026-10-03"},{name:"Maggie&#39;s Place Spruce Up",description:`Maggie’s Place provides safe housing and a nurturing community for homeless pregnant women, empowering them to thrive throughout their lifetime.
 
 Work alongside the moms residing at The Michael House in Glendale to help clean and maintain their home.
 
@@ -867,25 +833,7 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXuGnMAL",date:"2026-10-04"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-04 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85035
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDSMA1",date:"2026-10-04"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXuGnMAL",date:"2026-10-04"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -903,7 +851,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85041
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5fMAD",date:"2026-10-04"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5fMAD",date:"2026-10-04"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-04 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85035
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDSMA1",date:"2026-10-04"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -919,25 +885,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujWsMAJ",date:"2026-10-05"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-05 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwthMAD",date:"2026-10-05"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujWsMAJ",date:"2026-10-05"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -955,7 +903,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85029
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HNMA1",date:"2026-10-05"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HNMA1",date:"2026-10-05"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-05 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85003
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwthMAD",date:"2026-10-05"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1043,7 +1009,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujWwMAJ",date:"2026-10-09"},{name:"Community Market (Referral)",description:`Come join YWCA Metropolitan Phoenix at our monthly Community Market food distribution! In partnership with St. Mary's Food Bank, we are able to distribute fresh produce, pantry essentials and household goods to community members. 
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujWwMAJ",date:"2026-10-09"},{name:"Community Market (Referral)",description:`Come join YWCA Metropolitan Phoenix at our monthly Community Market food distribution! In partnership with St. Mary's Food Bank, we are able to distribute fresh produce, pantry essentials and household goods to community members. 
 
 As we are in our hotter months, we want to limit folks' time outdoors. We will be conducting this Community Market as a walk-up market. Participants will check in at the table and then volunteers will help bring food boxes to the cars.
 
@@ -1074,21 +1040,7 @@ Volunteers are allowed to take food from the market only after community members
 
 Location: Glendale, AZ, 85302
 
-Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008E95UEMAZ",date:"2026-10-09"},{name:"Nature Nurturers at Escalante Community Garden",description:`The Escalante Community Garden is a garden that follows a communal model with healthy growing practices. A portion of the garden’s harvest is given to Tempe Community Action Agency's Food Pantry to supplement emergency food boxes. The garden features a children's area, as well as a desert and herb garden.
-
-Volunteers will help care for the garden. Duties may include weeding, planting, pruning, and harvesting!Please wear closed-toe shoes, and clothes that can get dirty. Bring SPF and water!
-
-The minimum age for this volunteer opportunity is 8 with a parent or guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-The map below shows the best way to enter the garden off River Dr.
-
-2026-10-10 | 8:00 AM - 11:00 AM
-
-Location: Tempe, AZ, 85281
-
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000082pJoXMAU",date:"2026-10-10"},{name:"Community Garden Workers with Keep Phoenix Beautiful",description:`Keep Phoenix Beautiful envisions a vibrant Phoenix where each neighborhood is a healthy, beautiful place to live. Every day, Keep Phoenix Beautiful provides tools to empower our diverse communities to improve overall quality of life.
+Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008E95UEMAZ",date:"2026-10-09"},{name:"Community Garden Workers with Keep Phoenix Beautiful",description:`Keep Phoenix Beautiful envisions a vibrant Phoenix where each neighborhood is a healthy, beautiful place to live. Every day, Keep Phoenix Beautiful provides tools to empower our diverse communities to improve overall quality of life.
 
 Spend your morning at KPB's Pierson Street Garden and help maintain and enhance this amazing resource for the local community! Volunteers will help with a variety of tasks which may include planting flowers & produce, building compost bins, revamping the chicken coop, painting tables and garden beds, spreading mulch, clearing trash, and removing weeds. Lighter duties may include organizing the barn, wiping down recycling bins, folding t-shirts, organizing gloves, and prepping cleanup kits.
 
@@ -1104,7 +1056,21 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85015
 
-Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mZ5ujMAC",date:"2026-10-10"},{name:"Furry Friends at Forever Loved Pet Sanctuary",description:`Forever Loved's mission is to help overlooked senior dogs in Arizona find their forever homes. Help care for these furry friends while they wait for adoption!
+Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mZ5ujMAC",date:"2026-10-10"},{name:"Nature Nurturers at Escalante Community Garden",description:`The Escalante Community Garden is a garden that follows a communal model with healthy growing practices. A portion of the garden’s harvest is given to Tempe Community Action Agency's Food Pantry to supplement emergency food boxes. The garden features a children's area, as well as a desert and herb garden.
+
+Volunteers will help care for the garden. Duties may include weeding, planting, pruning, and harvesting!Please wear closed-toe shoes, and clothes that can get dirty. Bring SPF and water!
+
+The minimum age for this volunteer opportunity is 8 with a parent or guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+The map below shows the best way to enter the garden off River Dr.
+
+2026-10-10 | 8:00 AM - 11:00 AM
+
+Location: Tempe, AZ, 85281
+
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000082pJoXMAU",date:"2026-10-10"},{name:"Furry Friends at Forever Loved Pet Sanctuary",description:`Forever Loved's mission is to help overlooked senior dogs in Arizona find their forever homes. Help care for these furry friends while they wait for adoption!
 
 Volunteer duties may include feeding, cleaning, grooming, walking, and socializing with the dogs.
 
@@ -1193,25 +1159,7 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXuGoMAL",date:"2026-10-11"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-11 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85035
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDTMA1",date:"2026-10-11"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXuGoMAL",date:"2026-10-11"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1229,7 +1177,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85041
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5gMAD",date:"2026-10-11"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5gMAD",date:"2026-10-11"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-11 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85035
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDTMA1",date:"2026-10-11"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1353,25 +1319,7 @@ A successful parade takes a community of people working together. Thank you for 
 
 Location: Phoenix, AZ, 85004
 
-Volunteers still needed: 30`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000099Dk6YMAS",date:"2026-10-12"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-12 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwtiMAD",date:"2026-10-12"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 30`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000099Dk6YMAS",date:"2026-10-12"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1389,7 +1337,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85029
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HOMA1",date:"2026-10-12"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HOMA1",date:"2026-10-12"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-12 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85003
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwtiMAD",date:"2026-10-12"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1586,7 +1552,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujX1MAJ",date:"2026-10-16"},{name:"Volunteer Opportunity: October 2026 Independent Sector National Summit(Referral)",description:`The Independent Sector National Summit will take place October 13–16, 2026, at the Phoenix Convention Center in Phoenix, Arizona, and we are building the volunteer team behind this year's event.
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujX1MAJ",date:"2026-10-16"},{name:"Volunteer Opportunity: October 2026 Independent Sector National Summit(Referral)",description:`The Independent Sector National Summit will take place October 13–16, 2026, at the Phoenix Convention Center in Phoenix, Arizona, and we are building the volunteer team behind this year's event.
 
 Independent Sector is the national membership organization that connects, strengthens, and advocates for nonprofits and philanthropies. The National Summit is its flagship annual convening, bringing together more than 700 nonprofit, philanthropic, and corporate giving leaders under this year's theme, The Future We Build Together.
 
@@ -1746,21 +1712,7 @@ Click express interest below to be redirected to our sign up page!
 
 Location: Tempe, AZ, 85281
 
-Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00006oVcdqMAC",date:"2026-10-17"},{name:"Shopper Support with Harvest Compassion Center- Maryvale",description:`Harvest Compassion Center's mission is to provide food and clothing in a hope-filled environment to the underserved in the greater Phoenix area. Each center is completely free to the public, allowing all guests to shop freely for food, hygiene, baby and clothing items.
-
-Volunteers will welcome guests, help them shop for the items they need, and keep the center clean and organized throughout the shift. All you need is a big heart and a big smile to make a difference at HCC! View this video to learn more.
-
-The minimum age for this project is 6 with a parent/guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-All volunteers over the age of 13 must complete this brief form upon sign-up! At the end of the form, it will ask if you’re volunteering for community service hours. Please indicate Yes and type HandsOn Phoenix and the date of the project in the text box. No further steps are needed after submission!
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-2026-10-17 | 8:00 AM - 12:00 PM
-
-Location: Phoenix, AZ, 85033
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008sSQveMAG",date:"2026-10-17"},{name:"Sort and Pack at St. Mary&#39;s Food Bank - Phoenix",description:`Bring your helping hands to sort, pack, and distribute food that will go to other nonprofits and families in crisis at St. Mary's Food Bank Alliance. You will have a blast meeting new people while working the conveyer belt!
+Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00006oVcdqMAC",date:"2026-10-17"},{name:"Sort and Pack at St. Mary&#39;s Food Bank - Phoenix",description:`Bring your helping hands to sort, pack, and distribute food that will go to other nonprofits and families in crisis at St. Mary's Food Bank Alliance. You will have a blast meeting new people while working the conveyer belt!
 
 St. Mary's Food Bank is always in need of donations. Items such as cereal, canned goods, packages of bottled water, sports drinks, as well as dog and cat food are greatly appreciated. Feel free to bring donations with you to the project.
 
@@ -1805,7 +1757,21 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85009
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Wws80MAB",date:"2026-10-17"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008Wws80MAB",date:"2026-10-17"},{name:"Shopper Support with Harvest Compassion Center- Maryvale",description:`Harvest Compassion Center's mission is to provide food and clothing in a hope-filled environment to the underserved in the greater Phoenix area. Each center is completely free to the public, allowing all guests to shop freely for food, hygiene, baby and clothing items.
+
+Volunteers will welcome guests, help them shop for the items they need, and keep the center clean and organized throughout the shift. All you need is a big heart and a big smile to make a difference at HCC! View this video to learn more.
+
+The minimum age for this project is 6 with a parent/guardian. All Volunteers under the age of 16 must be accompanied by a parent/guardian. Volunteers ages 16 and 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
+
+All volunteers over the age of 13 must complete this brief form upon sign-up! At the end of the form, it will ask if you’re volunteering for community service hours. Please indicate Yes and type HandsOn Phoenix and the date of the project in the text box. No further steps are needed after submission!
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+2026-10-17 | 8:00 AM - 12:00 PM
+
+Location: Phoenix, AZ, 85033
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008sSQveMAG",date:"2026-10-17"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
 
 The minimum age for this volunteer opportunity is 14 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian.
 
@@ -1829,25 +1795,7 @@ If you would like to register your child/children, please email the opportunity 
 
 Location: Mesa, AZ, 85204
 
-Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008pLyRNMA0",date:"2026-10-17"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-18 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85035
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDUMA1",date:"2026-10-18"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008pLyRNMA0",date:"2026-10-17"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1865,7 +1813,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85041
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5hMAD",date:"2026-10-18"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5hMAD",date:"2026-10-18"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-18 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85035
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDUMA1",date:"2026-10-18"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1881,25 +1847,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujX2MAJ",date:"2026-10-19"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-19 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwtjMAD",date:"2026-10-19"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujX2MAJ",date:"2026-10-19"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1917,7 +1865,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85029
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HPMA1",date:"2026-10-19"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HPMA1",date:"2026-10-19"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-19 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85003
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwtjMAD",date:"2026-10-19"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -2105,7 +2071,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Mesa, AZ, 85210
 
-Volunteers still needed: 9`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lDYuNMAW",date:"2026-10-23"},{name:"Fall Games 2026 (Referral)",description:`Join Special Olympics Arizona for Fall Games 2026 in Surprise!
+Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lDYuNMAW",date:"2026-10-23"},{name:"Fall Games 2026 (Referral)",description:`Join Special Olympics Arizona for Fall Games 2026 in Surprise!
 
  
 
@@ -2169,7 +2135,7 @@ The project calendar is designed for individuals and families looking to volunte
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mT9BbMAK",date:"2026-10-23"},{name:"BINGO! at Osborn Pointe",description:`Osborn Pointe is a 48-unit supportive housing community designed to serve individuals 55 and over.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mT9BbMAK",date:"2026-10-23"},{name:"BINGO! at Osborn Pointe",description:`Osborn Pointe is a 48-unit supportive housing community designed to serve individuals 55 and over.
 
 Join the residents of Osborn Pointe for a fun game of BINGO! Volunteers will help run the game, read the winning numbers, and hand out prizes. Bring your smile and a positive attitude to set residents up for a wonderful weekend!
 
@@ -2261,25 +2227,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Goodyear, AZ, 85338
 
-Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lSukuMAC",date:"2026-10-24"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-25 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85035
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDVMA1",date:"2026-10-25"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lSukuMAC",date:"2026-10-24"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Lindo Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -2297,7 +2245,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85041
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5iMAD",date:"2026-10-25"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWx5iMAD",date:"2026-10-25"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards Desert West",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the two drinking stations at Desert West Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Desert West Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-25 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85035
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JWwDVMA1",date:"2026-10-25"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -2313,25 +2279,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in at the
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujX7MAJ",date:"2026-10-26"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
-
-The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
-
-The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
-
-Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
-
-Volunteers must be 16 years or older to sign up.
-
-Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
-
-Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
-
-2026-10-26 | 12:00 PM - 1:00 PM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwtkMAD",date:"2026-10-26"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009CujX7MAJ",date:"2026-10-26"},{name:"Pick Your Time-10-Minute Opportunity! Chilled Water Station Stewards-Cave Creek",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -2349,7 +2297,25 @@ Please note, this is an independent volunteer opportunity. The website will alwa
 
 Location: Phoenix, AZ, 85029
 
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HQMA1",date:"2026-10-26"},{name:"Chef&#39;s Night Off at HomeBase",description:`Roll up your sleeves and help chop, slice, and dice with love as you prepare and serve dinner for homeless youth and young adults (ages 18-21) at HomeBase Youth Services. You can also help pack lunches that will be distributed throughout the week to homeless youth and young adults. Allow the busy chef to have a nice evening off.
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JX3HQMA1",date:"2026-10-26"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards-Grant Park",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+
+The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
+
+The success of these chilled drinking water stations depends on public use- which means keeping them clean and inviting! Take 10 minutes, 1-2 times during the week you sign-up for, to help monitor and clean the drinking station at Grant Park. Simply check the water temperature & water flow and wipe down the units!
+
+Do you live close to Grant Park? Do you walk your dog or ride your bike there once or twice a week? This quick and easy volunteer opportunity is flexible, so you can choose any day/time during the week you sign up for to stop by and conduct the cleanings. Cleaning supplies are located on site. Further instructions will be provided in your confirmation email.
+
+Volunteers must be 16 years or older to sign up.
+
+Be a part of an innovative and sustainable project that provides cool drinking water for Phonecians while reducing the use of plastic water bottles! Sign Up to adopt a week today!
+
+Please note, this is an independent volunteer opportunity. The website will always reflect that one of two slots is filled. Please disregard this. If one spot is remaining, then we still need a volunteer to visit the water station 1-2 times that week. You will not work with another volunteer or meet anyone else on site.
+
+2026-10-26 | 12:00 PM - 1:00 PM
+
+Location: Phoenix, AZ, 85003
+
+Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXwtkMAD",date:"2026-10-26"},{name:"Chef&#39;s Night Off at HomeBase",description:`Roll up your sleeves and help chop, slice, and dice with love as you prepare and serve dinner for homeless youth and young adults (ages 18-21) at HomeBase Youth Services. You can also help pack lunches that will be distributed throughout the week to homeless youth and young adults. Allow the busy chef to have a nice evening off.
 
 Volunteers must wear closed-toe shoes, and long hair should be pulled back.
 
@@ -2493,7 +2459,87 @@ The minimum age for this project is 18 (adults only).
 
 Location: Phoenix, AZ, 85034
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008jtNMwMAM",date:"2026-11-04"}]},bg={title:"City of Flagstaff",note:null,opportunities:[{name:"Garden Maintenance Volunteer Day - Bonito (1/6)",description:`Garden volunteer days are a great way to become directly involved in your local community garden, interact with other gardeners, and ensure the gardens continue to thrive in further years. Each volunteer day includes a variety of activities that support the overall health of the gardens. These may range from essential maintenance tasks such as turning compost, weeding, and caring for communal plots to hands-on learning experiences and creative, garden inspired projects. Whether you're looking to build gardening skills, meet new people, or simply spend time outdoors giving back to your community, volunteer days provide something for everyone!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008jtNMwMAM",date:"2026-11-04"},{name:"El Rancho Del Sol Community Garden - Mesa (Referral)",description:`Volunteers are one of the most powerful ways Local First Arizona mobilizes communities across the state. By supporting our food access and community initiatives, volunteers help connect residents to fresh, nourishing foods while creating welcoming spaces that celebrate local food and the people who grow, make and share it.
+
+Depending on the season, volunteers will help with watering, weeding, planting, harvesting and general garden maintenance.
+
+Volunteers should bring plenty of water, sun protection & gardening gloves (if you have them). Parking available in the lot behind the El Rancho Del Sol apartments or on the street (on Ashland, off Main Street). The garden is behind the dumpsters in the back of the parking lot, surrounded by an orange gate. You’ll be performing plant maintenance, composting and harvesting.
+
+Shift times vary with the seasons:
+
+7 a.m. - 9 a.m. May - September
+
+8 a.m. - 10 a.m. October - April
+
+Located behind Del Sol Apartments
+
+701 E Main St
+
+Mesa, AZ 85203
+
+Please click express interest below to be redirected to our sign up page!
+
+2026-11-05 | 8:00 AM - 10:00 AM
+
+Location: Mesa, AZ, 85203
+
+Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000092itd1MAA",date:"2026-11-05"},{name:"El Rancho Del Sol Community Garden (Referral)",description:`Volunteers are one of the most powerful ways Local First Arizona mobilizes communities across the state. By supporting our food access and community initiatives, volunteers help connect residents to fresh, nourishing foods while creating welcoming spaces that celebrate local food and the people who grow, make and share it.
+
+Depending on the season, volunteers will help with watering, weeding, planting, harvesting and general garden maintenance.
+
+Volunteers should bring plenty of water, sun protection & gardening gloves (if you have them). Parking available in the lot behind the El Rancho Del Sol apartments or on the street (on Ashland, off Main Street). The garden is behind the dumpsters in the back of the parking lot, surrounded by an orange gate. You’ll be performing plant maintenance, composting and harvesting.
+
+Shifts are the 1st and 3rd Thursday of each month.
+
+Shift times vary with the seasons:
+
+7 a.m. - 9 a.m. May - September
+
+8 a.m. - 10 a.m. October - April
+
+Located behind Del Sol Apartments
+
+701 E Main St
+
+Mesa, AZ 85203
+
+To sign up, click express interest below and you will be redirected to our registration page!
+
+2026-11-05 | 8:00 AM - 10:00 AM
+
+Location: Mesa, AZ, 85203
+
+Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000093rC81MAE",date:"2026-11-05"},{name:"Coronado Area Bowling Competition in Tucson (Referral)",description:`Join Special Olympics Arizona for a Coronado Area Bowling Competition in Tucson!
+
+ 
+
+Volunteers are needed for event support to keep the competition running smoothly, timing, and as always, cheering the athletes on!
+
+ 
+
+Please click 'Express Interest' below to move forward. 
+
+ 
+
+We have a new volunteer registration system so please email volunteer@specialolympicsarizona.org for questions or assistance getting registered.
+
+2026-11-05 | 9:30 AM - 12:30 PM
+
+Location: Tucson, AZ, 85704
+
+Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EF2GqMAL",date:"2026-11-05"},{name:"Kid Connection at The Salvation Army",description:`Volunteers will spend quality time with children at the Salvation Army Emergency Family Shelter. Arts & crafts, reading, games, and sports are par for the course at this volunteer opportunity. Volunteers will get to meet new people and make a difference in a child's day!
+
+The minimum age for this volunteer opportunity is 18.
+
+If this is your first time volunteering at this project, please send a copy of your driver's license to Jose.E.Ramirez@usw.salvationarmy.org at least two days before the project date. The Salvation Army will conduct a National Sex Offender search to ensure the safety of the children at the shelter. We appreciate your cooperation! Court-ordered volunteers cannot attend this event.
+
+Volunteers will be asked to sign the Salvation Army's volunteer forms upon their arrival.  They can be reviewed here.
+
+2026-11-05 | 4:45 PM - 6:00 PM
+
+Location: Phoenix, AZ, 85008
+
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008mWoabMAC",date:"2026-11-05"}]},bg={title:"City of Flagstaff",note:null,opportunities:[{name:"Garden Maintenance Volunteer Day - Bonito (1/6)",description:`Garden volunteer days are a great way to become directly involved in your local community garden, interact with other gardeners, and ensure the gardens continue to thrive in further years. Each volunteer day includes a variety of activities that support the overall health of the gardens. These may range from essential maintenance tasks such as turning compost, weeding, and caring for communal plots to hands-on learning experiences and creative, garden inspired projects. Whether you're looking to build gardening skills, meet new people, or simply spend time outdoors giving back to your community, volunteer days provide something for everyone!
 
 2026-06-02 | 4:00 PM - 6:00 PM
 
@@ -2590,15 +2636,7 @@ Location: McMillan Mesa Natural Area
 
 Category: Special Event
 
-• ALL Parks, Recreation, Open Space & Events Volunt - Help with a guided hike to find tarantulas! (1 spots available)`,date:"2026-10-04",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Invasive Weed Pull-Scotch Thistle!",description:`Our amazing Weed Warriors wanted to get the last of the Scotch Thistle at Picture Canyon!  Open Space is providing the tools and weed bags. Wear sturdy shoes, long pants and shirtsleeves, and bring drinking water and work gloves. Hope to see you there!
-
-2026-09-23 | 7:00 AM - 10:00 AM
-
-Location: Picture Canyon Natural & Cultural Preserve
-
-Category: Gardening
-
-• ALL Flagstaff Volunteers - Invasive Weed Pull (7 spots available)`,date:"2026-09-23",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Open Spaces Commission meeting",description:`This is a regularly-scheduled Open Spaces Commission meeting, to which the public is involved. Click "Volunteer" if you're a Commissioner, or click on "Sign Up" if you'd like to participate. For more information and for a link to the agenda, visit https://www.flagstaff.az.gov/3327/Open-Spaces-Commission. This meeting is a field visit, and we'll meet at the Thorpe Bark Park and carpool up to Observatory Mesa Natural Preserve.
+• ALL Parks, Recreation, Open Space & Events Volunt - Help with a guided hike to find tarantulas! (1 spots available)`,date:"2026-10-04",link:"https://volunteer.flagstaffaz.gov/Calendar"},{name:"Open Spaces Commission meeting",description:`This is a regularly-scheduled Open Spaces Commission meeting, to which the public is involved. Click "Volunteer" if you're a Commissioner, or click on "Sign Up" if you'd like to participate. For more information and for a link to the agenda, visit https://www.flagstaff.az.gov/3327/Open-Spaces-Commission. This meeting is a field visit, and we'll meet at the Thorpe Bark Park and carpool up to Observatory Mesa Natural Preserve.
 
 2026-10-26 | 4:00 PM - 6:00 PM
 
