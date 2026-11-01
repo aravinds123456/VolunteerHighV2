@@ -89,23 +89,7 @@ Rules:
 5. If no opportunities match well, say so honestly and suggest they check back soon as new opportunities are added daily.`;let ki=[],bi=null;async function bg(e,n){var i,a,s,l,u,f;if(!yd())throw new Error("Quest AI isn't configured yet. Add your Gemini API key in src/config/firebaseConfig.js.");bi||(bi=kg+`
 
 Volunteer opportunities database:
-`+n),ki.push({role:"user",parts:[{text:e}]});const t=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${wg}:generateContent?key=${md}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({system_instruction:{parts:[{text:bi}]},contents:ki,generationConfig:{maxOutputTokens:1e3,temperature:.7}})});if(!t.ok){const d=await t.json().catch(()=>({}));throw new Error(((i=d==null?void 0:d.error)==null?void 0:i.message)||`API error ${t.status}`)}const o=((f=(u=(l=(s=(a=(await t.json()).candidates)==null?void 0:a[0])==null?void 0:s.content)==null?void 0:l.parts)==null?void 0:u[0])==null?void 0:f.text)??"";return ki.push({role:"model",parts:[{text:o}]}),o}const Pg={title:"HandsOn Greater Phoenix",note:null,opportunities:[{name:"From the Ground Up: Volunteer Day at the Ranch (Referral)",description:`Join us for a meaningful day of giving back at Wildcat Ranch Phoenix! This in-person volunteer event is a wonderful opportunity to roll up your sleeves, enjoy the outdoors, and make a direct impact on the ranch and the horses who call it home.
-
-Volunteers will work together on a variety of hands-on projects, including fence repairs, stall cleaning and refreshing, barn organization, and general facility beautification. These improvements help create a safer, more welcoming environment for our horses and the individuals who participate in our therapy programs.
-
-No ranch experience is necessary—whether you’re a seasoned ranch hand or simply eager to help, your time and effort truly make a difference. Connect with nature, meet fellow community members, and be part of something meaningful.
-
-2026-10-31 | 7:00 AM - 10:00 AM
-
-Location: PHOENIX, AZ, AZ, 85042
-
-Volunteers still needed: 48`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008oZje7MAC",date:"2026-10-31"},{name:"G.A.I.N. Trick-o-Treat on 13th St (Referral)",description:`We need volunteers to help with our 6th annual Getting Arizona Involved in Neighborhoods Trick-o-Treat block party. The event is held on 13th Street from Dunlap to Hatcher in Phoenix. We need hands to put up string lights, monitor the black light bounce house, and sit along the block to hand out candy. This is a fun, easy volunteer event for all ages and abilities.
-
-2026-10-31 | 4:00 PM - 9:00 PM
-
-Location: Phoenix, AZ, 85020
-
-Volunteers still needed: 17`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009JXoktMAD",date:"2026-10-31"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+`+n),ki.push({role:"user",parts:[{text:e}]});const t=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${wg}:generateContent?key=${md}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({system_instruction:{parts:[{text:bi}]},contents:ki,generationConfig:{maxOutputTokens:1e3,temperature:.7}})});if(!t.ok){const d=await t.json().catch(()=>({}));throw new Error(((i=d==null?void 0:d.error)==null?void 0:i.message)||`API error ${t.status}`)}const o=((f=(u=(l=(s=(a=(await t.json()).candidates)==null?void 0:a[0])==null?void 0:s.content)==null?void 0:l.parts)==null?void 0:u[0])==null?void 0:f.text)??"";return ki.push({role:"model",parts:[{text:o}]}),o}const Pg={title:"HandsOn Greater Phoenix",note:null,opportunities:[{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -488,43 +472,7 @@ TO LEARN MORE ABOUT VOLUNTEER SHIFTS AND TO SIGN UP, VISIT localfirstaz.com/fall
 
 Location: Phoenix, AZ, 85004
 
-Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ydQqsMAE",date:"2026-11-07"},{name:"Coronado Area Bowling Competition in Tucson (Referral)",description:`Join Special Olympics Arizona for a Coronado Area Bowling Competition in Tucson!
-
- 
-
-Volunteers are needed for event support to keep the competition running smoothly, timing, and as always, cheering the athletes on!
-
- 
-
-Please click 'Express Interest' below to move forward. 
-
- 
-
-We have a new volunteer registration system so please email volunteer@specialolympicsarizona.org for questions or assistance getting registered.
-
-2026-11-07 | 8:00 AM - 11:00 AM
-
-Location: Tucson, AZ, 85704
-
-Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EF2GtMAL",date:"2026-11-07"},{name:"Coronado Area Bowling Competition in Tucson (Referral)",description:`Join Special Olympics Arizona for a Coronado Area Bowling Competition in Tucson!
-
- 
-
-Volunteers are needed for event support to keep the competition running smoothly, timing, and as always, cheering the athletes on!
-
- 
-
-Please click 'Express Interest' below to move forward. 
-
- 
-
-We have a new volunteer registration system so please email volunteer@specialolympicsarizona.org for questions or assistance getting registered.
-
-2026-11-07 | 11:00 AM - 2:00 PM
-
-Location: Tucson, AZ, 85704
-
-Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EF2GuMAL",date:"2026-11-07"},{name:"Tempe Smoke Alarm Walk (Referral)",description:`Why Your Involvement Matters: With your support, we aim to install smoke alarms at no cost to residents in low-income or high-risk homes, with a goal of reaching hundreds of residents in just one morning! This is an opportunity to directly impact our community and contribute to creating safer living environments for those who need it most.
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008ydQqsMAE",date:"2026-11-07"},{name:"Tempe Smoke Alarm Walk (Referral)",description:`Why Your Involvement Matters: With your support, we aim to install smoke alarms at no cost to residents in low-income or high-risk homes, with a goal of reaching hundreds of residents in just one morning! This is an opportunity to directly impact our community and contribute to creating safer living environments for those who need it most.
 
 What's In It for You:
 
@@ -578,7 +526,43 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85003
 
-Volunteers still needed: 8`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008qwjfZMAQ",date:"2026-11-07"},{name:"Mountain Area Golf Competition in Prescott (Referral)",description:`Join Special Olympics Arizona for a Mountain Area Golf Competition in Prescott!
+Volunteers still needed: 8`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008qwjfZMAQ",date:"2026-11-07"},{name:"Coronado Area Bowling Competition in Tucson (Referral)",description:`Join Special Olympics Arizona for a Coronado Area Bowling Competition in Tucson!
+
+ 
+
+Volunteers are needed for event support to keep the competition running smoothly, timing, and as always, cheering the athletes on!
+
+ 
+
+Please click 'Express Interest' below to move forward. 
+
+ 
+
+We have a new volunteer registration system so please email volunteer@specialolympicsarizona.org for questions or assistance getting registered.
+
+2026-11-07 | 8:00 AM - 11:00 AM
+
+Location: Tucson, AZ, 85704
+
+Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EF2GtMAL",date:"2026-11-07"},{name:"Coronado Area Bowling Competition in Tucson (Referral)",description:`Join Special Olympics Arizona for a Coronado Area Bowling Competition in Tucson!
+
+ 
+
+Volunteers are needed for event support to keep the competition running smoothly, timing, and as always, cheering the athletes on!
+
+ 
+
+Please click 'Express Interest' below to move forward. 
+
+ 
+
+We have a new volunteer registration system so please email volunteer@specialolympicsarizona.org for questions or assistance getting registered.
+
+2026-11-07 | 11:00 AM - 2:00 PM
+
+Location: Tucson, AZ, 85704
+
+Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008EF2GuMAL",date:"2026-11-07"},{name:"Mountain Area Golf Competition in Prescott (Referral)",description:`Join Special Olympics Arizona for a Mountain Area Golf Competition in Prescott!
 
  
 
@@ -735,7 +719,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85043
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008q2Bt7MAE",date:"2026-11-11"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008q2Bt7MAE",date:"2026-11-11"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1679,7 +1663,21 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85015
 
-Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009TUPgtMAH",date:"2026-11-21"},{name:"2026 Family Volunteer Day at HandsOn Greater Phoenix",description:`Saturday, November 21st, is National Family Volunteer Day! Bring the family to this fun and engaging volunteer event at the HandsOn Greater Phoenix office in Mesa!
+Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009TUPgtMAH",date:"2026-11-21"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
+
+The minimum age for this volunteer opportunity is 14 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian.
+
+Volunteers must create an account with Project C.U.R.E. and sign in through their system at the warehouse. To make this process faster, please register here to set up your account before the project date.
+
+Note: The building is a warehouse, so please wear close-toed shoes, appropriate clothing and bring water. You may be packing in either the warehouse or the sorting center. Please be prepared to do some lifting (up to 30 pounds). 
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+2026-11-21 | 9:00 AM - 12:00 PM
+
+Location: Phoenix, AZ, 85009
+
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008l05qTMAQ",date:"2026-11-21"},{name:"2026 Family Volunteer Day at HandsOn Greater Phoenix",description:`Saturday, November 21st, is National Family Volunteer Day! Bring the family to this fun and engaging volunteer event at the HandsOn Greater Phoenix office in Mesa!
 
 Families can expect to complete small construction builds and crafty projects to benefit our nonprofit partners. Whether it's wrapping presents for the holiday season, assembling kitted projects for youth, or building outdoor furniture for local direct service organizations, we'll have an activity for you to get creative for a cause!
 
@@ -1713,21 +1711,7 @@ If you would like to register your child/children, please email the opportunity 
 
 Location: Mesa, AZ, 85204
 
-Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009TZHqHMAX",date:"2026-11-21"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
-
-The minimum age for this volunteer opportunity is 14 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian.
-
-Volunteers must create an account with Project C.U.R.E. and sign in through their system at the warehouse. To make this process faster, please register here to set up your account before the project date.
-
-Note: The building is a warehouse, so please wear close-toed shoes, appropriate clothing and bring water. You may be packing in either the warehouse or the sorting center. Please be prepared to do some lifting (up to 30 pounds). 
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-2026-11-21 | 9:00 AM - 12:00 PM
-
-Location: Phoenix, AZ, 85009
-
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008l05qTMAQ",date:"2026-11-21"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 19`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009TZHqHMAX",date:"2026-11-21"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -1839,7 +1823,7 @@ Click "Sign Up" below to be redirected to The Salvation Army's volunteer registr
 
 Location: Phoenix, AZ, 85004
 
-Volunteers still needed: 22`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009VgQXYMA3",date:"2026-11-26"},{name:"Adaptive Pickleball- Coach/Unified Partner (Referral)",description:`Dates: Thursdays, November 5, 2026 - January 28, 2027 + Tournament on Saturday, January 30, 2027
+Volunteers still needed: 20`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009VgQXYMA3",date:"2026-11-26"},{name:"Adaptive Pickleball- Coach/Unified Partner (Referral)",description:`Dates: Thursdays, November 5, 2026 - January 28, 2027 + Tournament on Saturday, January 30, 2027
 
 Location: Mesa Tennis & Pickleball Center - 4125 E McKellips Rd, Mesa, AZ 85215
 
@@ -2942,7 +2926,17 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85009
 
-Volunteers still needed: 12`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WxXpTMAV",date:"2026-12-12"}]},Sg={title:"City of Flagstaff",note:null,opportunities:[{name:"Open Space Working Group meeting",description:`Come meet with Open Space Stewards, and get updates on Flagstaff Open Space's projects at Picture Canyon, McMillan Mesa, and Observatory Mesa Natural Preserves!
+Volunteers still needed: 12`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WxXpTMAV",date:"2026-12-12"},{name:"From the Ground Up: Volunteer Day at the Ranch (Referral)",description:`Join us for a meaningful day of giving back at Wildcat Ranch Phoenix! This in-person volunteer event is a wonderful opportunity to roll up your sleeves, enjoy the outdoors, and make a direct impact on the ranch and the horses who call it home.
+
+Volunteers will work together on a variety of hands-on projects, including fence repairs, stall cleaning and refreshing, barn organization, and general facility beautification. These improvements help create a safer, more welcoming environment for our horses and the individuals who participate in our therapy programs.
+
+No ranch experience is necessary—whether you’re a seasoned ranch hand or simply eager to help, your time and effort truly make a difference. Connect with nature, meet fellow community members, and be part of something meaningful.
+
+2026-12-13 | 7:00 AM - 10:00 AM
+
+Location: PHOENIX, AZ, AZ, 85042
+
+Volunteers still needed: 50`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008oaIC8MAM",date:"2026-12-13"}]},Sg={title:"City of Flagstaff",note:null,opportunities:[{name:"Open Space Working Group meeting",description:`Come meet with Open Space Stewards, and get updates on Flagstaff Open Space's projects at Picture Canyon, McMillan Mesa, and Observatory Mesa Natural Preserves!
 
 2026-11-10 | 10:30 AM - 12:00 PM
 
