@@ -89,42 +89,7 @@ Rules:
 5. If no opportunities match well, say so honestly and suggest they check back soon as new opportunities are added daily.`;let kr=[],br=null;async function bg(e,n){var r,a,s,l,u,f;if(!yd())throw new Error("Quest AI isn't configured yet. Add your Gemini API key in src/config/firebaseConfig.js.");br||(br=kg+`
 
 Volunteer opportunities database:
-`+n),kr.push({role:"user",parts:[{text:e}]});const t=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${wg}:generateContent?key=${md}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({system_instruction:{parts:[{text:br}]},contents:kr,generationConfig:{maxOutputTokens:1e3,temperature:.7}})});if(!t.ok){const d=await t.json().catch(()=>({}));throw new Error(((r=d==null?void 0:d.error)==null?void 0:r.message)||`API error ${t.status}`)}const o=((f=(u=(l=(s=(a=(await t.json()).candidates)==null?void 0:a[0])==null?void 0:s.content)==null?void 0:l.parts)==null?void 0:u[0])==null?void 0:f.text)??"";return kr.push({role:"model",parts:[{text:o}]}),o}const Pg={title:"HandsOn Greater Phoenix",note:null,opportunities:[{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
-
-There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
-
-Please Note: Volunteers serving court-ordered volunteer hours must register directly through St. Vincent de Paul and attend a virtual orientation before being scheduled to volunteer.
-
-The minimum age for this volunteer opportunity is 9 with a parent or guardian. All volunteers under the age of 14 must be accompanied by a parent/guardian. Volunteers ages 14 through 17 who aren't attending a project with a parent/guardian MUST bring a Youth Waiver signed by a parent or guardian, to each project.
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-This project is led by the staff at St. Vincent de Paul. When you sign in at the Main Campus, please mark that you are volunteering with HandsOn Greater Phoenix.
-
-2026-11-25 | 6:30 AM - 9:00 AM
-
-Location: Phoenix, AZ, 85003
-
-Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009cD3xBMAS",date:"2026-11-25"},{name:"Nutrition Program Volunteer (Referral)",description:`Advance Community's Nutrition Program offers 2 separate volunteer opportunities. Our first program, Stove to Table delivers healthy, made from scratch meals for seniors living in subsidized housing in Maricopa County. This population experiences disproportionately high levels of food insecurity and chronic illness and our hot, fresh meals go a long way to help ease this burden and improve their quality of life. 
-
-Each week we prepare and individually package over 500 meals for delivery in our kitchen. We rely on volunteers to help us prepare large quantities of ingredients, fresh fruits, and vegetables; as well as package meals and clean the kitchen at the end of a meal.
-
-Our second program is Mercado Fresh where we provide monthly nutritious food boxes to individuals facing food insecurity and chronic health conditions—because giving food is giving dignity.
-
-Shifts available are Tuesdays, Wednesdays & Thursdays:
-
-	
-9:00 AM to 1:00 PM
-
-You will be placed where the need is the greatest that day (either the kitchen or warehouse)
-
-We ask that you come dressed appropriately; please no open toed shoes. Volunteers under the age of 16 are welcome with a parent or guardian.
-
-2026-11-25 | 9:00 AM - 1:00 PM
-
-Location: Phoenix, AZ, 85015
-
-Volunteers still needed: 1`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009fGJXEMA4",date:"2026-11-25"},{name:"Salvation Army Thanksgiving Meal- MULTIPLE SHIFTS",description:`PLEASE NOTE: This year, all volunteers must select a shift and register directly through the Salvation Army's website. You are not officially signed up until you have completed the Salvations Army's registration! DUE TO SECURITY REQUIREMENTS, IF A NAME IS NOT ON THE LIST, YOU WILL NOT BE ALLOWED TO STAY AND VOLUNTEER.
+`+n),kr.push({role:"user",parts:[{text:e}]});const t=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${wg}:generateContent?key=${md}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({system_instruction:{parts:[{text:br}]},contents:kr,generationConfig:{maxOutputTokens:1e3,temperature:.7}})});if(!t.ok){const d=await t.json().catch(()=>({}));throw new Error(((r=d==null?void 0:d.error)==null?void 0:r.message)||`API error ${t.status}`)}const o=((f=(u=(l=(s=(a=(await t.json()).candidates)==null?void 0:a[0])==null?void 0:s.content)==null?void 0:l.parts)==null?void 0:u[0])==null?void 0:f.text)??"";return kr.push({role:"model",parts:[{text:o}]}),o}const Pg={title:"HandsOn Greater Phoenix",note:null,opportunities:[{name:"Salvation Army Thanksgiving Meal- MULTIPLE SHIFTS",description:`PLEASE NOTE: This year, all volunteers must select a shift and register directly through the Salvation Army's website. You are not officially signed up until you have completed the Salvations Army's registration! DUE TO SECURITY REQUIREMENTS, IF A NAME IS NOT ON THE LIST, YOU WILL NOT BE ALLOWED TO STAY AND VOLUNTEER.
 
 This year, The Salvation Army will provide approximately 2,000 hot sit-down plated meals at the South Building of the Phoenix Convention Center. In addition, our volunteers will home deliver approximately 3,000 meals and prepare additional meals to be distributed throughout the Valley.
 
@@ -228,7 +193,7 @@ This project is led by the staff at St. Vincent de Paul. When you sign in, pleas
 
 Location: Phoenix, AZ, 85007
 
-Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009iBYdBMAW",date:"2026-11-27"},{name:"Native Holiday Market by OXDX (Referral)",description:`Volunteer at the "OXDX Holiday Market", a celebration of Indigenous artistry and local businesses brought to you by local clothing and design label, OXDX Clothing. Now in its 7th year, this annual gathering unites Native artists from across Arizona, showcasing a diverse array of art, jewelry, apparel, crafts, home goods, and self-care products.
+Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009iBYdBMAW",date:"2026-11-27"},{name:"Native Holiday Market by OXDX (Referral)",description:`Volunteer at the "OXDX Holiday Market", a celebration of Indigenous artistry and local businesses brought to you by local clothing and design label, OXDX Clothing. Now in its 7th year, this annual gathering unites Native artists from across Arizona, showcasing a diverse array of art, jewelry, apparel, crafts, home goods, and self-care products.
 
 Supported by Cultural Coalition, this is a wonderful event to Volunteer at and get some holiday shopping done!
 
@@ -284,7 +249,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Goodyear, AZ, 85338
 
-Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lZ4j8MAC",date:"2026-11-28"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 3`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lZ4j8MAC",date:"2026-11-28"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -1435,7 +1400,7 @@ The minimum age for this volunteer opportunity is 18.
 
 Location: Phoenix, AZ, 85009
 
-Volunteers still needed: 2`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008jt28FMAQ",date:"2026-12-10"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
+Volunteers still needed: 0`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008jt28FMAQ",date:"2026-12-10"},{name:"Morning Kitchen Crew at St. Vincent de Paul",description:`We need your help to prepare and clean up as we create over 4,000 meals in the St. Vincent de Paul kitchen! No kitchen experience necessary.
 
 There will be gloves provided. Please wear closed-toe shoes, mid-thigh length shorts or pants, and sleeved shirts (no tank tops or sleeveless shirts).
 
@@ -2311,21 +2276,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Phoenix, AZ, 85009
 
-Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WxWAEMA3",date:"2026-12-19"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
-
-The minimum age for this volunteer opportunity is 14 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian.
-
-Volunteers must create an account with Project C.U.R.E. and sign in through their system at the warehouse. To make this process faster, please register here to set up your account before the project date.
-
-Note: The building is a warehouse, so please wear close-toed shoes, appropriate clothing and bring water. You may be packing in either the warehouse or the sorting center. Please be prepared to do some lifting (up to 30 pounds). 
-
-If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
-
-2026-12-19 | 9:00 AM - 12:00 PM
-
-Location: Phoenix, AZ, 85009
-
-Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lVlYHMA0",date:"2026-12-19"},{name:"The People&#39;s Garden (Referral)",description:`Volunteers are one of the most powerful ways Local First Arizona mobilizes communities across the state. By supporting our food access and community initiatives, volunteers help connect residents to fresh, nourishing foods while creating welcoming spaces that celebrate local food and the people who grow, make and share it.
+Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008WxWAEMA3",date:"2026-12-19"},{name:"The People&#39;s Garden (Referral)",description:`Volunteers are one of the most powerful ways Local First Arizona mobilizes communities across the state. By supporting our food access and community initiatives, volunteers help connect residents to fresh, nourishing foods while creating welcoming spaces that celebrate local food and the people who grow, make and share it.
 
 Dig in at The People’s Garden, a thriving Central Phoenix space uplifting community growers and entrepreneurs while fostering environmental sustainability and connection.
 
@@ -2366,7 +2317,21 @@ Please express interest below to be redirected to our sign up page!
 
 Location: Phoenix, AZ, 85004
 
-Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000092joe2MAA",date:"2026-12-19"},{name:"Game Room Nights (Referral)",description:`Game Room Nights
+Volunteers still needed: 10`,link:"https://www.handsonphoenix.org/opportunity/a0CUi000092joe2MAA",date:"2026-12-19"},{name:"Medical Sort and Pack at Project C.U.R.E.",description:`Bring hope and health to the world with Project C.U.R.E., a national faith-based organization! Join us as we sort and pack desperately needed medical supplies that are shipped to hospitals, clinics, and orphanages in over 100 poverty stricken countries worldwide! Volunteers will meet new people and learn a lot about medical supplies and the urgent needs of them in under-resourced countries around the world.
+
+The minimum age for this volunteer opportunity is 14 with a parent or guardian. All volunteers under the age of 18 must be accompanied by a parent/guardian.
+
+Volunteers must create an account with Project C.U.R.E. and sign in through their system at the warehouse. To make this process faster, please register here to set up your account before the project date.
+
+Note: The building is a warehouse, so please wear close-toed shoes, appropriate clothing and bring water. You may be packing in either the warehouse or the sorting center. Please be prepared to do some lifting (up to 30 pounds). 
+
+If you would like to register your child, please email the opportunity coordinator listed below and ask to reserve a guest slot. Please note, volunteers 13 years or older can create their own HandsOn account and sign up for opportunities directly (activation fee is not applicable for those under the age of 16).
+
+2026-12-19 | 9:00 AM - 12:00 PM
+
+Location: Phoenix, AZ, 85009
+
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008lVlYHMA0",date:"2026-12-19"},{name:"Game Room Nights (Referral)",description:`Game Room Nights
 
 Upcoming dates:
 
@@ -2812,7 +2777,7 @@ If you would like to register your child, please email the opportunity coordinat
 
 Location: Goodyear, AZ, 85338
 
-Volunteers still needed: 7`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008layPtMAI",date:"2026-12-26"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
+Volunteers still needed: 6`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00008layPtMAI",date:"2026-12-26"},{name:"Pick Your Time -10-Minute Opportunity! Chilled Water Station Stewards Roosevelt",description:`PICK YOUR DAY & TIME! This is a 10-minute, independent, flexible, micro-volunteering opportunity!
 
 The City of Phoenix is on a mission to create a sustainable network of chilled drinking water stations in high-density areas of the City, adapting innovative technologies to respond to rising urban temperatures.
 
@@ -3318,7 +3283,65 @@ Please express interest below to be redirected to our volunteer application.
 
 Location: Mesa, AZ, 85208
 
-Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009flBAVMA2",date:"2027-01-06"}]},Sg={title:"City of Flagstaff",note:null,opportunities:[{name:"Open Space Working Group meeting",description:`Come meet with Open Space Stewards, and get updates on Flagstaff Open Space's projects at Picture Canyon, McMillan Mesa, and Observatory Mesa Natural Preserves!
+Volunteers still needed: 4`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009flBAVMA2",date:"2027-01-06"},{name:"Adaptive Pickleball- Coach/Unified Partner (Referral)",description:`Dates: Thursdays, November 5, 2026 - January 28, 2027 + Tournament on Saturday, January 30, 2027
+
+Location: Mesa Tennis & Pickleball Center - 4125 E McKellips Rd, Mesa, AZ 85215
+
+	
+5pm-6pm (Youth)
+
+	
+6pm-7pm (Adult – Beginner)
+
+	
+7pm-8pm (Adult – Intermediate)
+
+Activity Description:
+
+	
+This program is for individuals with intellectual disabilities to prepare them for Special Olympics pickleball competitions. The youth and adult beginner sessions focus on learning pickleball skills, while the adult intermediate session will mainly focus on game play.
+
+Job Description:
+
+	
+Coach: will be at practices and if available, play as a Unified Partner in the Special Olympics Pickleball Competition
+
+	
+Unified Partner: commit to attending 2-3 practices in January and play in the Special Olympics Pickleball Competition. Must have prior pickleball playing experience and knowledge of pickleball rules
+
+	
+Assist with set up and clean up 15-30 minutes before and after practice
+
+	
+Assist coaches in running a court or run a court independently if needed with the guidance of a head coach
+
+	
+Gathering balls for each court throughout practice
+
+	
+Be encouraging and cheer on participants while they practice!
+
+	
+Experience is preferred but not required but volunteers must engage in the activity
+
+Volunteer Number Requesting:
+
+	
+Volunteers: 1-5
+
+	
+Coaches: 2-5
+
+	
+Unified Partners: 5-10
+
+Click express interest below to be redirected to our volunteer application.
+
+2027-01-07 | 5:00 PM - 8:00 PM
+
+Location: Mesa, AZ, 85205
+
+Volunteers still needed: 5`,link:"https://www.handsonphoenix.org/opportunity/a0CUi00009filgfMAA",date:"2027-01-07"}]},Sg={title:"City of Flagstaff",note:null,opportunities:[{name:"Open Space Working Group meeting",description:`Come meet with Open Space Stewards, and get updates on Flagstaff Open Space's projects at Picture Canyon, McMillan Mesa, and Observatory Mesa Natural Preserves!
 
 2026-12-09 | 10:30 AM - 12:00 PM
 
